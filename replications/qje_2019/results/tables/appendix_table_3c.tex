@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.3c}
+\begin{document}
+
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{Selection on Employment and Productivity Variables}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)} \tabularnewline \midrule
+{Selection Variable}&{Mean}&{\(N\)}&{Completed Screening and HRA}&{Completed Fall Activity}&{Completed Spring Activity} \tabularnewline
+\midrule \addlinespace[\belowrulesep]
+Sick leave (days/year) [admin]&6.274&3,296&0.473*&N/A&N/A \tabularnewline
+&&&(0.267)&N/A&N/A \tabularnewline
+&&&[0.152]&N/A&N/A \tabularnewline
+Annual salary (dollars) [admin]&N/A&N/A&N/A&N/A&N/A \tabularnewline
+&&&N/A&N/A&N/A \tabularnewline
+&&&N/A&N/A&N/A \tabularnewline
+Any sick days in past year [survey]&0.600&3,296&0.043**&N/A&N/A \tabularnewline
+&&&(0.017)&N/A&N/A \tabularnewline
+&&&[0.050]&N/A&N/A \tabularnewline
+Worked 50+ hours/week [survey]&0.173&3,297&--0.058***&N/A&N/A \tabularnewline
+&&&(0.013)&N/A&N/A \tabularnewline
+&&&[0.000]&N/A&N/A \tabularnewline
+Very satisfied with job [survey]&0.408&3,299&0.002&N/A&N/A \tabularnewline
+&&&(0.017)&N/A&N/A \tabularnewline
+&&&[0.898]&N/A&N/A \tabularnewline
+Very or somewhat satisfied with job [survey]&0.845&3,299&0.023*&N/A&N/A \tabularnewline
+&&&(0.013)&N/A&N/A \tabularnewline
+&&&[0.195]&N/A&N/A \tabularnewline
+Management priority on health/safety [survey]&0.782&3,299&0.012&N/A&N/A \tabularnewline
+&&&(0.015)&N/A&N/A \tabularnewline
+&&&[0.630]&N/A&N/A \tabularnewline
+Productivity index [survey/admin]&0.008&3,251&--0.077&N/A&N/A \tabularnewline
+&&&(0.047)&N/A&N/A \tabularnewline
+&&&[0.097]&N/A&N/A \tabularnewline
+\bottomrule \addlinespace[\belowrulesep]
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize This table replicates Appendix Table A.3c from Jones, Molitor, and Reif (QJE 2019) using public-use data. The Westfall-Young \(p\)-values, reported in brackets, do not exactly replicate the values from the original paper due to censoring in the public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

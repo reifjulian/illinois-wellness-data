@@ -1,0 +1,105 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.7g}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{Longer-Run Treatment Effects (ITT)}
+\label{tab:appendix_itt_health_vars_survey_0816_0119}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)} \tabularnewline \midrule
+{Outcome Variable}&{Horizon (months)}&{Mean}&{No Controls}&{Strata FEs}&{Post-Lasso} \tabularnewline
+\midrule 
+\addlinespace[1.2ex]
+\multicolumn{3}{l}{\textbf{C. Health Status and Behaviors [survey]}}& \tabularnewline
+\midrule Ever screened [survey]&24&0.962&0.029***&N/A&N/A \tabularnewline
+&&&(0.008)&N/A&N/A \tabularnewline
+&&&[0.008]&N/A&N/A \tabularnewline
+&&\textit{N=}3,020&\textit{N=}3,020&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Physically active [survey]&24&0.373&0.039**&N/A&N/A \tabularnewline
+&&&(0.019)&N/A&N/A \tabularnewline
+&&&[0.350]&N/A&N/A \tabularnewline
+&&\textit{N=}3,020&\textit{N=}3,020&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Trying to be active [survey]&24&0.809&--0.004&N/A&N/A \tabularnewline
+&&&(0.015)&N/A&N/A \tabularnewline
+&&&[0.999]&N/A&N/A \tabularnewline
+&&\textit{N=}3,020&\textit{N=}3,020&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Current smoker (cigarettes) [survey]&24&0.057&--0.021**&N/A&N/A \tabularnewline
+&&&(0.010)&N/A&N/A \tabularnewline
+&&&[0.286]&N/A&N/A \tabularnewline
+&&\textit{N=}3,017&\textit{N=}3,017&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Drinker [survey]&24&0.665&--0.009&N/A&N/A \tabularnewline
+&&&(0.018)&N/A&N/A \tabularnewline
+&&&[0.999]&N/A&N/A \tabularnewline
+&&\textit{N=}3,017&\textit{N=}3,017&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Heavy drinker [survey]&24&0.048&0.005&N/A&N/A \tabularnewline
+&&&(0.008)&N/A&N/A \tabularnewline
+&&&[0.999]&N/A&N/A \tabularnewline
+&&\textit{N=}3,017&\textit{N=}3,017&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Chronic condition [survey]&24&0.758&--0.003&N/A&N/A \tabularnewline
+&&&(0.017)&N/A&N/A \tabularnewline
+&&&[0.999]&N/A&N/A \tabularnewline
+&&\textit{N=}3,020&\textit{N=}3,020&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Excellent or v. good health [survey]&24&0.569&0.009&N/A&N/A \tabularnewline
+&&&(0.019)&N/A&N/A \tabularnewline
+&&&[0.999]&N/A&N/A \tabularnewline
+&&\textit{N=}3,020&\textit{N=}3,020&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Not poor health [survey]&24&0.992&--0.006**&N/A&N/A \tabularnewline
+&&&(0.003)&N/A&N/A \tabularnewline
+&&&[0.350]&N/A&N/A \tabularnewline
+&&\textit{N=}3,020&\textit{N=}3,020&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Physical problems [survey]&24&0.406&--0.011&N/A&N/A \tabularnewline
+&&&(0.019)&N/A&N/A \tabularnewline
+&&&[0.999]&N/A&N/A \tabularnewline
+&&\textit{N=}3,020&\textit{N=}3,020&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Lots of energy [survey]&24&0.316&0.030*&N/A&N/A \tabularnewline
+&&&(0.018)&N/A&N/A \tabularnewline
+&&&[0.647]&N/A&N/A \tabularnewline
+&&\textit{N=}3,019&\textit{N=}3,019&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Bad emotional health [survey]&24&0.296&--0.005&N/A&N/A \tabularnewline
+&&&(0.018)&N/A&N/A \tabularnewline
+&&&[0.999]&N/A&N/A \tabularnewline
+&&\textit{N=}3,018&\textit{N=}3,018&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Overweight [survey]&24&0.564&0.005&N/A&N/A \tabularnewline
+&&&(0.019)&N/A&N/A \tabularnewline
+&&&[0.999]&N/A&N/A \tabularnewline
+&&\textit{N=}3,019&\textit{N=}3,019&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+High BP/cholesterol/glucose [survey]&24&0.330&--0.011&N/A&N/A \tabularnewline
+&&&(0.018)&N/A&N/A \tabularnewline
+&&&[0.999]&N/A&N/A \tabularnewline
+&&\textit{N=}3,019&\textit{N=}3,019&N/A&N/A \tabularnewline
+\addlinespace[1.2ex]
+Sedentary [survey]&24&0.553&0.008&N/A&N/A \tabularnewline
+&&&(0.019)&N/A&N/A \tabularnewline
+&&&[0.999]&N/A&N/A \tabularnewline
+&&\textit{N=}3,018&\textit{N=}3,018&N/A&N/A \tabularnewline
+\bottomrule\addlinespace[-1.5ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Appendix Table A.7g from Jones, Molitor, and Reif (QJE 2019) using public-use data. The Westfall-Young \(p\)-values, reported in brackets, do not exactly replicate the values from the original paper due to censoring in the public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

@@ -1,0 +1,101 @@
+* 00000006
+*! version 1.0.0
+* Do not erase or edit this file
+* It is used by Stata to track the ado and help
+* files you have installed.
+
+S http://fmwww.bc.edu/repec/bocode/i
+N ingap.pkg
+D  1 Apr 2020
+U 1
+d 'INGAP': module to insert gap observations into a data set before output by listtex
+d 
+d   ingap inserts gap and/or heading observations into a data set
+d before the   data set is output by the listtex package (q.v.),
+d which      outputs variables to table rows which the user can
+d insert into a TeX, LaTeX,  HTML or Microsoft Word table.
+d ingap inserts observation next to (before or     after) each of
+d a list of observations specified by the user. The user
+d specifies a list of integers, and ingap inserts gap observations
+d next to      the observations in the corresponding positions in
+d the data set, or in the      corresponding positions in each
+d by-group if by-variables are specified.      ingap assumes that
+d the data set in memory has up to 3 classes of variables.
+d These are the by-variables which define by-groups representing
+d the pages of     the table, a row label variable containing the
+d row labels in the left margin      of the table, and the
+d remaining variables, which may form the entries in the      table
+d rows. A gap observation inserted by ingap has the same values for
+d the    by-variables as the observation next to which it was
+d inserted, a row label      value specified by the user, and
+d missing values (or possibly column headings)     in the
+d remaining variables. ingap may also create an additional binary
+d    variable, identifying which observations are gap observations.
+d The user may     output the data set using listtex, or may
+d alternatively create a plot for      immediate impact, using
+d Stata graphics together with the sencode package (q.v.).
+d 
+d KW: data manipulation
+d 
+d Requires: Stata version 10.0
+d 
+d 
+d Author: Roger Newson, National Heart and Lung Institute, Imperial College London
+d Support: email r.newson@@imperial.ac.uk
+d 
+d Distribution-Date: 20120721
+d 
+f i\ingap.ado
+f i\ingap.sthlp
+e
+S https://raw.githubusercontent.com/reifjulian/regsave/master
+N regsave.pkg
+D  1 Apr 2020
+U 2
+d regsave. Extract and store regression results.
+d Julian Reif, University of Illinois (jreif@illinois.edu)
+f r\regsave.ado
+f r\regsave.hlp
+f r\regsave_tbl.ado
+f r\regsave_tbl.hlp
+e
+S https://raw.githubusercontent.com/reifjulian/texsave/master
+N texsave.pkg
+D  1 Apr 2020
+U 3
+d texsave. Save dataset in LaTeX format.
+d Julian Reif, University of Illinois (jreif@illinois.edu)
+f t\texsave.ado
+f t\texsave.sthlp
+f a\appendfile.ado
+f a\appendfile.hlp
+e
+S https://raw.githubusercontent.com/reifjulian/wyoung/master
+N wyoung.pkg
+D  7 Apr 2020
+U 4
+d regsave. Extract and store regression results.
+d Julian Reif, University of Illinois (jreif@illinois.edu)
+f w\wyoung.ado
+f w\wyoung.sthlp
+e
+S https://raw.githubusercontent.com/reifjulian/sortobs/master
+N sortobs.pkg
+D 23 Apr 2020
+U 5
+d svret. Sort observations into a specified order.
+d Julian Reif, University of Illinois (jreif@illinois.edu)
+f s\sortobs.ado
+f s\sortobs.hlp
+e
+S https://raw.githubusercontent.com/reifjulian/texsave/master
+N texsave.pkg
+D 18 Aug 2020
+U 6
+d texsave. Save dataset in LaTeX format.
+d Julian Reif, University of Illinois (jreif@illinois.edu)
+f t\texsave.ado
+f t\texsave.sthlp
+f a\appendfile.ado
+f a\appendfile.hlp
+e

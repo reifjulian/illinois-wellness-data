@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.5b}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{First-Year Treatment Effects: Experimental versus Observational Estimates}
+\label{tab:appendix_iv_ols_spend_vars_survey_0816_0717}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)}&{(6)} \tabularnewline 
+ \midrule 
+ & \multicolumn{3}{c}{Experimental (IV)} & \multicolumn{3}{c}{Observational (OLS)} \tabularnewline 
+ \cmidrule(l){2-4} \cmidrule(l){5-7}
+{Outcome Variable}&{No Controls}&{Strata FEs}&{Post-Lasso}&{No Controls}&{Strata FEs}&{Post-Lasso} \tabularnewline
+\midrule 
+&&&&&& \tabularnewline
+\multicolumn{3}{l}{\textbf{A. Medical Spending [survey]}}&& \tabularnewline
+\midrule Pharmaceutical drug utilization [survey]&--0.017&N/A&N/A&0.022&N/A&N/A \tabularnewline
+&(0.024)&N/A&N/A&(0.019)&N/A&N/A \tabularnewline
+&\textit{N=}3,567&N/A&N/A&\textit{N=}2,410&N/A&N/A \tabularnewline
+&&&&&& \tabularnewline
+Physician/ER utilization [survey]&0.004&N/A&N/A&0.024&N/A&N/A \tabularnewline
+&(0.024)&N/A&N/A&(0.019)&N/A&N/A \tabularnewline
+&\textit{N=}3,567&N/A&N/A&\textit{N=}2,410&N/A&N/A \tabularnewline
+&&&&&& \tabularnewline
+Hospital utilization [survey]&0.005&N/A&N/A&--0.009&N/A&N/A \tabularnewline
+&(0.008)&N/A&N/A&(0.007)&N/A&N/A \tabularnewline
+&\textit{N=}3,567&N/A&N/A&\textit{N=}2,410&N/A&N/A \tabularnewline
+\bottomrule\addlinespace[-1.5ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Appendix Table A.5b from Jones, Molitor, and Reif (QJE 2019) using public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

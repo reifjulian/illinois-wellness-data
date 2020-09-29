@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.7b}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{Longer-Run Treatment Effects (ITT)}
+\label{tab:appendix_itt_spend_vars_survey_0816_0119}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)} \tabularnewline \midrule
+{Outcome Variable}&{Horizon (months)}&{Mean}&{No Controls}&{Strata FEs}&{Post-Lasso} \tabularnewline
+\midrule 
+\addlinespace[1.4ex]
+\multicolumn{3}{l}{\textbf{A. Medical Spending [survey]}}& \tabularnewline
+\midrule Pharmaceutical drug utilization [survey]&24&0.729&0.010&N/A&N/A \tabularnewline
+&&&(0.017)&N/A&N/A \tabularnewline
+&&&[0.910]&N/A&N/A \tabularnewline
+&&\textit{N=}3,019&\textit{N=}3,019&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Physician/ER utilization [survey]&24&0.765&--0.004&N/A&N/A \tabularnewline
+&&&(0.016)&N/A&N/A \tabularnewline
+&&&[0.910]&N/A&N/A \tabularnewline
+&&\textit{N=}3,019&\textit{N=}3,019&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Hospital utilization [survey]&24&0.027&0.003&N/A&N/A \tabularnewline
+&&&(0.006)&N/A&N/A \tabularnewline
+&&&[0.910]&N/A&N/A \tabularnewline
+&&\textit{N=}3,019&\textit{N=}3,019&N/A&N/A \tabularnewline
+\bottomrule\addlinespace[-1.5ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Appendix Table A.7b from Jones, Molitor, and Reif (QJE 2019) using public-use data. The Westfall-Young \(p\)-values, reported in brackets, do not exactly replicate the values from the original paper due to censoring in the public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

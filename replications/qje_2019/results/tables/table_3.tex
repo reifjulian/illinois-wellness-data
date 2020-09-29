@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{3}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{Treatment Effects (Intention-to-Treat)}
+\label{tab:itt}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)}&{(6)} \tabularnewline \midrule
+\addlinespace[1.0ex] & \multicolumn{3}{c}{First Year (12 months)} & \multicolumn{3}{c}{Longer-run (24--30 months)} \tabularnewline \cmidrule(lr){2-4} \cmidrule{5-7}\addlinespace[-2.5ex] \tabularnewline
+{Outcome Variable}&{Mean}&{No Controls}&{Post-Lasso}&{Mean}&{No Controls}&{Post-Lasso} \tabularnewline
+\midrule 
+&&&&&& \tabularnewline
+\multicolumn{3}{l}{\textbf{A. Medical Spending}}&& \tabularnewline
+\midrule Total spending (dollars/month) [admin]&576.2&10.8&N/A&650.5&--74.7&N/A \tabularnewline
+&&(48.5)&N/A&&(58.5)&N/A \tabularnewline
+&&[0.931]&N/A&&[0.611]&N/A \tabularnewline
+&\textit{N=}3,239&\textit{N=}3,239&\textit{N=}N/A&\textit{N=}3,307&\textit{N=}3,307&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+\ \ \ \ Drug spending [admin]&132.0&--8.5&N/A&148.8&--25.2&N/A \tabularnewline
+&&(26.5)&N/A&&(27.7)&N/A \tabularnewline
+&&[0.931]&N/A&&[0.841]&N/A \tabularnewline
+&\textit{N=}3,239&\textit{N=}3,239&\textit{N=}N/A&\textit{N=}3,307&\textit{N=}3,307&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+\ \ \ \ Office spending [admin]&69.5&--6.1&N/A&74.2&--6.6&N/A \tabularnewline
+&&(10.0)&N/A&&(8.6)&N/A \tabularnewline
+&&[0.931]&N/A&&[0.841]&N/A \tabularnewline
+&\textit{N=}3,239&\textit{N=}3,239&\textit{N=}N/A&\textit{N=}3,307&\textit{N=}3,307&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+\ \ \ \ Hospital spending [admin]&313.0&22.2&N/A&353.5&--31.7&N/A \tabularnewline
+&&(30.9)&N/A&&(35.6)&N/A \tabularnewline
+&&[0.931]&N/A&&[0.841]&N/A \tabularnewline
+&\textit{N=}3,239&\textit{N=}3,239&\textit{N=}N/A&\textit{N=}3,307&\textit{N=}3,307&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+Nonzero medical spending [admin]&0.902&--0.008&N/A&0.950&0.005&N/A \tabularnewline
+&&(0.011)&N/A&&(0.008)&N/A \tabularnewline
+&&[0.931]&N/A&&[0.841]&N/A \tabularnewline
+&\textit{N=}3,239&\textit{N=}3,239&\textit{N=}N/A&\textit{N=}3,307&\textit{N=}3,307&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+\multicolumn{3}{l}{\textbf{B. Employment and Productivity}}&& \tabularnewline
+\midrule Job promotion [admin]&0.176&--0.003&N/A&0.360&0.006&N/A \tabularnewline
+&&(0.013)&N/A&&(0.017)&N/A \tabularnewline
+&&[0.786]&N/A&&[0.979]&N/A \tabularnewline
+&\textit{N=}4,146&\textit{N=}4,146&\textit{N=}N/A&\textit{N=}3,635&\textit{N=}3,635&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+Job terminated [admin]&0.113&--0.013&N/A&0.204&0.002&N/A \tabularnewline
+&&(0.010)&N/A&&(0.012)&N/A \tabularnewline
+&&[0.612]&N/A&&[0.981]&N/A \tabularnewline
+&\textit{N=}4,834&\textit{N=}4,834&\textit{N=}N/A&\textit{N=}4,834&\textit{N=}4,834&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+Sick leave (days/year) [admin]&6.341&0.186&N/A&6.066&0.013&N/A \tabularnewline
+&&(0.230)&N/A&&(0.204)&N/A \tabularnewline
+&&[0.753]&N/A&&[0.981]&N/A \tabularnewline
+&\textit{N=}4,782&\textit{N=}4,782&\textit{N=}N/A&\textit{N=}4,782&\textit{N=}4,782&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+Management priority on health/safety [survey]&0.790&0.057***&N/A&0.784&0.028*&N/A \tabularnewline
+&&(0.015)&N/A&&(0.016)&N/A \tabularnewline
+&&[0.001]&N/A&&[0.540]&N/A \tabularnewline
+&\textit{N=}3,566&\textit{N=}3,566&\textit{N=}N/A&\textit{N=}3,018&\textit{N=}3,018&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+Productivity index [survey/admin]&0.000&--0.046&N/A&0.000&--0.015&N/A \tabularnewline
+&&(0.061)&N/A&&(0.062)&N/A \tabularnewline
+&&[0.440]&N/A&&[0.805]&N/A \tabularnewline
+&\textit{N=}3,309&\textit{N=}3,309&\textit{N=}N/A&\textit{N=}2,890&\textit{N=}2,890&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+\multicolumn{3}{l}{\textbf{C. Health Status and Behaviors}}&& \tabularnewline
+\midrule IL Marathon/10K/5K [admin]&0.066&0.002&N/A&0.052&0.006&N/A \tabularnewline
+&&(0.008)&N/A&&(0.007)&N/A \tabularnewline
+&&[0.976]&N/A&&[0.632]&N/A \tabularnewline
+&\textit{N=}4,834&\textit{N=}4,834&\textit{N=}N/A&\textit{N=}4,834&\textit{N=}4,834&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+Campus gym visits (days/year) [admin]&5.839&--0.062&N/A&5.047&--0.342&N/A \tabularnewline
+&&(0.733)&N/A&&(0.660)&N/A \tabularnewline
+&&[0.976]&N/A&&[0.632]&N/A \tabularnewline
+&\textit{N=}4,834&\textit{N=}4,834&\textit{N=}N/A&\textit{N=}4,834&\textit{N=}4,834&\textit{N=}N/A \tabularnewline\addlinespace[0.75ex]
+Ever screened [survey]&0.942&0.039***&N/A&0.962&0.029***&N/A \tabularnewline
+&&(0.009)&N/A&&(0.008)&N/A \tabularnewline
+&&[0.000]&N/A&&[0.008]&N/A \tabularnewline
+&\textit{N=}3,567&\textit{N=}3,567&\textit{N=}N/A&\textit{N=}3,020&\textit{N=}3,020&\textit{N=}N/A \tabularnewline
+\bottomrule\addlinespace[-1.7ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Table 3 from Jones, Molitor, and Reif (QJE 2019) using public-use data. The Westfall-Young \(p\)-values, reported in brackets, do not exactly replicate the values from the original paper due to censoring in the public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

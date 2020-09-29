@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.4f}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{First-Year Treatment Effects (ITT)}
+\label{tab:appendix_itt_health_vars_admin_0816_0717}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)} \tabularnewline \midrule
+{Outcome Variable}&{Mean}&{No Controls}&{Strata FEs}&{Post-Lasso} \tabularnewline
+\midrule 
+\addlinespace[1.4ex]
+\multicolumn{3}{l}{\textbf{C. Health Status and Behaviors [admin]}} \tabularnewline
+\midrule IL Marathon/10K/5K 2017 [admin]&0.066&0.002&N/A&N/A \tabularnewline
+&&(0.008)&N/A&N/A \tabularnewline
+&&[0.976]&N/A&N/A \tabularnewline
+&\textit{N=}4,834&\textit{N=}4,834&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Campus gym visits (days/year) [admin]&5.839&--0.062&N/A&N/A \tabularnewline
+&&(0.733)&N/A&N/A \tabularnewline
+&&[0.976]&N/A&N/A \tabularnewline
+&\textit{N=}4,834&\textit{N=}4,834&N/A&N/A \tabularnewline
+\bottomrule\addlinespace[-1.5ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Appendix Table A.4f from Jones, Molitor, and Reif (QJE 2019) using public-use data. The Westfall-Young \(p\)-values, reported in brackets, do not exactly replicate the values from the original paper due to censoring in the public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

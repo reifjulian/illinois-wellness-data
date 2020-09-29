@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.7e}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{Longer-Run Treatment Effects (ITT)}
+\label{tab:appendix_itt_job_vars_index_0816_0119}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)} \tabularnewline \midrule
+{Outcome Variable}&{Horizon (months)}&{Mean}&{No Controls}&{Strata FEs}&{Post-Lasso} \tabularnewline
+\midrule 
+\addlinespace[1.4ex]
+\multicolumn{3}{l}{\textbf{B. Employment and Productivity [admin/survey]}}& \tabularnewline
+\midrule Productivity index [survey/admin]&24&0.000&--0.015&N/A&N/A \tabularnewline
+&&&(0.062)&N/A&N/A \tabularnewline
+&&&[0.805]&N/A&N/A \tabularnewline
+&&\textit{N=}2,890&\textit{N=}2,890&N/A&N/A \tabularnewline
+\bottomrule\addlinespace[-1.5ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Appendix Table A.7e from Jones, Molitor, and Reif (QJE 2019) using public-use data. The Westfall-Young \(p\)-values, reported in brackets, do not exactly replicate the values from the original paper due to censoring in the public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

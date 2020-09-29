@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\usepackage{pdflscape}
+\renewcommand\thetable{1a}
+\begin{document}
+
+\begin{landscape}
+\newgeometry{left=.2in,right=.2in}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{Means of Study Variables at Baseline}
+\label{tab:balance_tests1}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)} \tabularnewline \midrule
+& & \multicolumn{3}{c}{Enrolled in Study} & \tabularnewline \cmidrule(lr){3-5}
+{}&{Not in Study}&{Control}&{Treatment}&{\(p\)-value}&{Sample Size} \tabularnewline
+\midrule \addlinespace[\belowrulesep]
+\textbf{A. Stratification Variables}&&&&& \tabularnewline
+\midrule Male&N/A&0.426&0.428&0.902&4,834 \tabularnewline
+Age 50+&N/A&0.323&0.327&0.818&4,834 \tabularnewline
+Age 37--49&N/A&0.340&0.332&0.591&4,834 \tabularnewline
+White&N/A&0.841&0.836&0.648&4,834 \tabularnewline
+Salary Q1 (bottom quartile)&N/A&0.244&0.242&0.881&4,834 \tabularnewline
+Salary Q2&N/A&0.255&0.259&0.773&4,834 \tabularnewline
+Salary Q3&N/A&0.249&0.250&0.924&4,834 \tabularnewline
+Faculty&N/A&0.196&0.201&0.722&4,834 \tabularnewline
+Academic staff&N/A&0.443&0.437&0.712&4,834 \tabularnewline
+&&&&& \tabularnewline
+\textbf{B. 2016 Survey Variables}&&&&& \tabularnewline
+\midrule Ever screened&&0.885&0.892&0.503&4,834 \tabularnewline
+Physically active&&0.359&0.382&0.134&4,834 \tabularnewline
+Trying to be active&&0.822&0.809&0.278&4,834 \tabularnewline
+Current smoker (cigarettes)&&0.072&0.065&0.428&4,833 \tabularnewline
+Current smoker (other)&&0.085&0.085&0.960&4,833 \tabularnewline
+Former smoker&&0.198&0.196&0.870&4,833 \tabularnewline
+Drinker&&0.657&0.645&0.423&4,830 \tabularnewline
+Heavy drinker&&0.050&0.049&0.955&4,829 \tabularnewline
+Chronic condition&&0.729&0.726&0.824&4,834 \tabularnewline
+Excellent or v. good health&&0.586&0.602&0.281&4,834 \tabularnewline
+Not poor health&&0.989&0.989&0.882&4,834 \tabularnewline
+Physical problems&&0.392&0.388&0.793&4,834 \tabularnewline
+Lots of energy&&0.310&0.330&0.171&4,834 \tabularnewline
+Bad emotional health&&0.308&0.288&0.162&4,834 \tabularnewline
+Overweight&&0.545&0.533&0.438&4,834 \tabularnewline
+High BP/cholesterol/glucose&&0.308&0.295&0.354&4,834 \tabularnewline
+Sedentary&&0.545&0.542&0.846&4,833 \tabularnewline
+Pharmaceutical drug utilization&&0.723&0.706&0.205&4,830 \tabularnewline
+Physician/ER utilization&&0.772&0.748&0.077&4,833 \tabularnewline
+Hospital utilization&&0.038&0.027&0.054&4,833 \tabularnewline
+Any sick days in past year&&0.618&0.600&0.232&4,828 \tabularnewline
+Worked 50+ hours/week&&0.187&0.173&0.234&4,831 \tabularnewline
+Very satisfied with job&&0.396&0.408&0.415&4,832 \tabularnewline
+Very or somewhat satisfied with job&&0.836&0.845&0.419&4,832 \tabularnewline
+Management priority on health/safety&&0.771&0.782&0.401&4,831 \tabularnewline
+&&&&& \tabularnewline
+\midrule Sample size&N/A&1,534&3,300&& \tabularnewline
+Joint balance test for panel A (\(p\)-value)&&&&1.000&4,834 \tabularnewline
+Joint balance test for panel B (\(p\)-value)&&&&0.821&4,817 \tabularnewline
+\bottomrule \addlinespace[\belowrulesep]
+
+\end{tabularx}
+\begin{flushleft}
+\scriptsize This table replicates Table 1a from Jones, Molitor, and Reif (QJE 2019) using public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\restoregeometry
+\end{landscape}
+\end{document}

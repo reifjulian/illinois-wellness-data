@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.4c}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{First-Year Treatment Effects (ITT)}
+\label{tab:appendix_itt_job_vars_admin_0816_0717}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)} \tabularnewline \midrule
+{Outcome Variable}&{Mean}&{No Controls}&{Strata FEs}&{Post-Lasso} \tabularnewline
+\midrule 
+\addlinespace[1.4ex]
+\multicolumn{3}{l}{\textbf{B. Employment and Productivity [admin]}} \tabularnewline
+\midrule Annual salary (share of baseline salary) [admin]&N/A&N/A&N/A&N/A \tabularnewline
+&&N/A&N/A&N/A \tabularnewline
+&&N/A&N/A&N/A \tabularnewline
+&\textit{N=}N/A&\textit{N=}N/A&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Job promotion [admin]&0.176&--0.003&N/A&N/A \tabularnewline
+&&(0.013)&N/A&N/A \tabularnewline
+&&[0.786]&N/A&N/A \tabularnewline
+&\textit{N=}4,146&\textit{N=}4,146&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Job title change [admin]&N/A&N/A&N/A&N/A \tabularnewline
+&&N/A&N/A&N/A \tabularnewline
+&&N/A&N/A&N/A \tabularnewline
+&\textit{N=}N/A&\textit{N=}N/A&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Job terminated [admin]&0.113&--0.013&N/A&N/A \tabularnewline
+&&(0.010)&N/A&N/A \tabularnewline
+&&[0.612]&N/A&N/A \tabularnewline
+&\textit{N=}4,834&\textit{N=}4,834&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Sick leave (days/year) [admin]&6.341&0.186&N/A&N/A \tabularnewline
+&&(0.230)&N/A&N/A \tabularnewline
+&&[0.753]&N/A&N/A \tabularnewline
+&\textit{N=}4,782&\textit{N=}4,782&N/A&N/A \tabularnewline
+\bottomrule\addlinespace[-1.5ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Appendix Table A.4c from Jones, Molitor, and Reif (QJE 2019) using public-use data. The Westfall-Young \(p\)-values, reported in brackets, do not exactly replicate the values from the original paper due to censoring in the public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

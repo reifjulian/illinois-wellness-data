@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.7d}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{Longer-Run Treatment Effects (ITT)}
+\label{tab:appendix_itt_job_vars_survey_0816_0119}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)} \tabularnewline \midrule
+{Outcome Variable}&{Horizon (months)}&{Mean}&{No Controls}&{Strata FEs}&{Post-Lasso} \tabularnewline
+\midrule 
+\addlinespace[1.4ex]
+\multicolumn{3}{l}{\textbf{B. Employment and Productivity [survey]}}& \tabularnewline
+\midrule Any sick days in past year [survey]&24&0.591&--0.009&N/A&N/A \tabularnewline
+&&&(0.019)&N/A&N/A \tabularnewline
+&&&[0.996]&N/A&N/A \tabularnewline
+&&\textit{N=}3,018&\textit{N=}3,018&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Worked 50+ hours/week [survey]&24&0.139&--0.034**&N/A&N/A \tabularnewline
+&&&(0.014)&N/A&N/A \tabularnewline
+&&&[0.136]&N/A&N/A \tabularnewline
+&&\textit{N=}3,018&\textit{N=}3,018&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Very satisfied with job [survey]&24&0.406&--0.010&N/A&N/A \tabularnewline
+&&&(0.019)&N/A&N/A \tabularnewline
+&&&[0.996]&N/A&N/A \tabularnewline
+&&\textit{N=}3,017&\textit{N=}3,017&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Very or somewhat satisfied with job [survey]&24&0.833&0.004&N/A&N/A \tabularnewline
+&&&(0.015)&N/A&N/A \tabularnewline
+&&&[0.996]&N/A&N/A \tabularnewline
+&&\textit{N=}3,017&\textit{N=}3,017&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Management priority on health/safety [survey]&24&0.784&0.028*&N/A&N/A \tabularnewline
+&&&(0.016)&N/A&N/A \tabularnewline
+&&&[0.540]&N/A&N/A \tabularnewline
+&&\textit{N=}3,018&\textit{N=}3,018&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Happier at work than last year [survey]&24&0.541&0.006&N/A&N/A \tabularnewline
+&&&(0.019)&N/A&N/A \tabularnewline
+&&&[0.996]&N/A&N/A \tabularnewline
+&&\textit{N=}3,012&\textit{N=}3,012&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Presenteeism [survey]&24&23.899&0.316&N/A&N/A \tabularnewline
+&&&(0.282)&N/A&N/A \tabularnewline
+&&&[0.895]&N/A&N/A \tabularnewline
+&&\textit{N=}3,020&\textit{N=}3,020&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Feel very productive at work [survey]&24&0.437&--0.005&N/A&N/A \tabularnewline
+&&&(0.019)&N/A&N/A \tabularnewline
+&&&[0.996]&N/A&N/A \tabularnewline
+&&\textit{N=}3,017&\textit{N=}3,017&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Received promotion [survey]&24&0.487&--0.008&N/A&N/A \tabularnewline
+&&&(0.019)&N/A&N/A \tabularnewline
+&&&[0.996]&N/A&N/A \tabularnewline
+&&\textit{N=}3,017&\textit{N=}3,017&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Job search very likely [survey]&24&0.119&0.018&N/A&N/A \tabularnewline
+&&&(0.012)&N/A&N/A \tabularnewline
+&&&[0.728]&N/A&N/A \tabularnewline
+&&\textit{N=}3,016&\textit{N=}3,016&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Job search somewhat/very likely [survey]&24&0.296&0.015&N/A&N/A \tabularnewline
+&&&(0.018)&N/A&N/A \tabularnewline
+&&&[0.961]&N/A&N/A \tabularnewline
+&&\textit{N=}3,016&\textit{N=}3,016&N/A&N/A \tabularnewline
+\bottomrule\addlinespace[-1.5ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Appendix Table A.7d from Jones, Molitor, and Reif (QJE 2019) using public-use data. The Westfall-Young \(p\)-values, reported in brackets, do not exactly replicate the values from the original paper due to censoring in the public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

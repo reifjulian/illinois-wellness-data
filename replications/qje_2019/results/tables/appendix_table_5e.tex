@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.5e}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{First-Year Treatment Effects: Experimental versus Observational Estimates}
+\label{tab:appendix_iv_ols_job_vars_index_0816_0717}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)}&{(6)} \tabularnewline 
+ \midrule 
+ & \multicolumn{3}{c}{Experimental (IV)} & \multicolumn{3}{c}{Observational (OLS)} \tabularnewline 
+ \cmidrule(l){2-4} \cmidrule(l){5-7}
+{Outcome Variable}&{No Controls}&{Strata FEs}&{Post-Lasso}&{No Controls}&{Strata FEs}&{Post-Lasso} \tabularnewline
+\midrule 
+&&&&&& \tabularnewline
+\multicolumn{3}{l}{\textbf{B. Employment and Productivity [admin/survey]}}&& \tabularnewline
+\midrule Productivity index [survey/admin]&--0.070&N/A&N/A&0.069&N/A&N/A \tabularnewline
+&(0.092)&N/A&N/A&(0.073)&N/A&N/A \tabularnewline
+&\textit{N=}3,309&N/A&N/A&\textit{N=}2,245&N/A&N/A \tabularnewline
+\bottomrule\addlinespace[-1.5ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Appendix Table A.5e from Jones, Molitor, and Reif (QJE 2019) using public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

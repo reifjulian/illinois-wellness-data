@@ -1,0 +1,8 @@
+.DS_Store
+.Rapp.history
+.Rhistory
+*.aux
+*.synctex.gz
+*.log
+replications/qje_2019/results/intermediate/
+replications/qje_2019/scripts/logs/

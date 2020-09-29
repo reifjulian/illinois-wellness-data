@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\usepackage{pdflscape}
+\renewcommand\thetable{1b}
+\begin{document}
+
+\begin{landscape}
+\newgeometry{left=.2in,right=.2in}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{Means of Study Variables at Baseline, Continued}
+\label{tab:balance_tests2}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)} \tabularnewline \midrule
+& & \multicolumn{3}{c}{Enrolled in Study} & \tabularnewline \cmidrule(lr){3-5}
+{}&{Not in Study}&{Control}&{Treatment}&{\(p\)-value}&{Sample Size} \tabularnewline
+\midrule \addlinespace[\belowrulesep]
+\textbf{C. Health Claims Variables (2015--2016)}&&&&& \tabularnewline
+\midrule Total spending (dollars/month)&N/A&506&465&0.317&N/A \tabularnewline
+\ \ \ \ Office spending&N/A&67&58&0.498&N/A \tabularnewline
+\ \ \ \ Hospital spending&N/A&283&259&0.369&N/A \tabularnewline
+\ \ \ \ Drug spending&N/A&103&101&0.911&N/A \tabularnewline
+Nonzero medical spending&N/A&0.899&0.885&0.253&N/A \tabularnewline
+&&&&& \tabularnewline
+\textbf{D. Health Behavior and Productivity Variables}&&&&& \tabularnewline
+\midrule Sick leave (days/year)&N/A&6.05&6.13&0.707&N/A \tabularnewline
+Annual salary (dollars)&N/A&N/A&N/A&N/A&N/A \tabularnewline
+IL Marathon/10K/5K (2014--2016)&N/A&0.107&0.118&0.257&N/A \tabularnewline
+Campus gym visits (days/year)&N/A&7.36&6.78&0.483&N/A \tabularnewline
+&&&&& \tabularnewline
+\midrule Sample size&N/A&1,534&3,300&& \tabularnewline
+Joint balance test for panel C (\(p\)-value)&&&&0.764&3,223 \tabularnewline
+Joint balance test for panel D (\(p\)-value)&&&&N/A&4,834 \tabularnewline
+\bottomrule \addlinespace[\belowrulesep]
+
+\end{tabularx}
+\begin{flushleft}
+\scriptsize This table replicates Table 1b  from Jones, Molitor, and Reif (QJE 2019) using public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\restoregeometry
+\end{landscape}
+\end{document}

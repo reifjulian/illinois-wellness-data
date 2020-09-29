@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.5c}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{First-Year Treatment Effects: Experimental versus Observational Estimates}
+\label{tab:appendix_iv_ols_job_vars_admin_0816_0717}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)}&{(6)} \tabularnewline 
+ \midrule 
+ & \multicolumn{3}{c}{Experimental (IV)} & \multicolumn{3}{c}{Observational (OLS)} \tabularnewline 
+ \cmidrule(l){2-4} \cmidrule(l){5-7}
+{Outcome Variable}&{No Controls}&{Strata FEs}&{Post-Lasso}&{No Controls}&{Strata FEs}&{Post-Lasso} \tabularnewline
+\midrule 
+&&&&&& \tabularnewline
+\multicolumn{3}{l}{\textbf{B. Employment and Productivity [admin]}}&& \tabularnewline
+\midrule Annual salary (share of baseline salary) [admin]&N/A&N/A&N/A&N/A&N/A&N/A \tabularnewline
+&N/A&N/A&N/A&N/A&N/A&N/A \tabularnewline
+&\textit{N=}N/A&N/A&N/A&\textit{N=}N/A&N/A&N/A \tabularnewline
+&&&&&& \tabularnewline
+Job promotion [admin]&--0.006&N/A&N/A&0.019&N/A&N/A \tabularnewline
+&(0.022)&N/A&N/A&(0.014)&N/A&N/A \tabularnewline
+&\textit{N=}4,146&N/A&N/A&\textit{N=}2,840&N/A&N/A \tabularnewline
+&&&&&& \tabularnewline
+Job title change [admin]&N/A&N/A&N/A&N/A&N/A&N/A \tabularnewline
+&N/A&N/A&N/A&N/A&N/A&N/A \tabularnewline
+&\textit{N=}N/A&N/A&N/A&\textit{N=}N/A&N/A&N/A \tabularnewline
+&&&&&& \tabularnewline
+Job terminated [admin]&--0.022&N/A&N/A&--0.080***&N/A&N/A \tabularnewline
+&(0.018)&N/A&N/A&(0.011)&N/A&N/A \tabularnewline
+&\textit{N=}4,834&N/A&N/A&\textit{N=}3,300&N/A&N/A \tabularnewline
+&&&&&& \tabularnewline
+Sick leave (days/year) [admin]&0.322&N/A&N/A&0.275&N/A&N/A \tabularnewline
+&(0.398)&N/A&N/A&(0.272)&N/A&N/A \tabularnewline
+&\textit{N=}4,782&N/A&N/A&\textit{N=}3,264&N/A&N/A \tabularnewline
+\bottomrule\addlinespace[-1.5ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Appendix Table A.5c from Jones, Molitor, and Reif (QJE 2019) using public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

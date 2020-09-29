@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{2}
+\begin{document}
+
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{Selection on Medical Spending, Productivity, and Health Behaviors}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)} \tabularnewline \midrule
+{Selection Variable}&{Mean}&{\(N\)}&{Completed Screening and HRA}&{Completed Fall Activity}&{Completed Spring Activity} \tabularnewline
+\midrule \addlinespace[\belowrulesep]
+\textbf{A. Baseline Medical Spending}&&&&& \tabularnewline
+\midrule Total spending (dollars/month) [admin]&479&2,188&--115.3**&N/A&N/A \tabularnewline
+&&&(52.2)&N/A&N/A \tabularnewline
+&&&[0.086]&N/A&N/A \tabularnewline
+Nonzero medical spending [admin]&0.885&2,188&0.050***&N/A&N/A \tabularnewline
+&&&(0.014)&N/A&N/A \tabularnewline
+&&&[0.008]&N/A&N/A \tabularnewline
+&&&&& \tabularnewline
+\textbf{B. Baseline Productivity}&&&&& \tabularnewline
+\midrule Productivity index [survey/admin]&0.008&3,251&--0.077&N/A&N/A \tabularnewline
+&&&(0.047)&N/A&N/A \tabularnewline
+&&&[0.097]&N/A&N/A \tabularnewline
+Sick leave (days/year) [admin]&6.274&3,296&0.473*&N/A&N/A \tabularnewline
+&&&(0.267)&N/A&N/A \tabularnewline
+&&&[0.152]&N/A&N/A \tabularnewline
+Worked 50+ hours/week [survey]&0.173&3,297&--0.058***&N/A&N/A \tabularnewline
+&&&(0.013)&N/A&N/A \tabularnewline
+&&&[0.000]&N/A&N/A \tabularnewline
+Annual salary (dollars) [admin]&N/A&N/A&N/A&N/A&N/A \tabularnewline
+&&&N/A&N/A&N/A \tabularnewline
+&&&N/A&N/A&N/A \tabularnewline
+Salary Q1 (bottom quartile) [admin]&0.242&3,300&--0.069***&N/A&N/A \tabularnewline
+&&&(0.015)&N/A&N/A \tabularnewline
+&&&[0.000]&N/A&N/A \tabularnewline
+&&&&& \tabularnewline
+\textbf{C. Baseline Health Behaviors}&&&&& \tabularnewline
+\midrule IL Marathon/10K/5K (2014--2016) [admin]&0.118&3,300&0.089***&N/A&N/A \tabularnewline
+&&&(0.011)&N/A&N/A \tabularnewline
+&&&[0.000]&N/A&N/A \tabularnewline
+Campus gym visits (days/year) [admin]&6.780&3,300&2.178**&N/A&N/A \tabularnewline
+&&&(0.885)&N/A&N/A \tabularnewline
+&&&[0.012]&N/A&N/A \tabularnewline
+\bottomrule \addlinespace[\belowrulesep]
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize This table replicates Table 2 from Jones, Molitor, and Reif (QJE 2019) using public-use data. The Westfall-Young \(p\)-values, reported in brackets, do not exactly replicate the values from the original paper due to censoring in the public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

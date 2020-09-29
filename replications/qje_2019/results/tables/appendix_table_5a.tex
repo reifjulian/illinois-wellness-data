@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.5a}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{First-Year Treatment Effects: Experimental versus Observational Estimates}
+\label{tab:appendix_iv_ols_spend_vars_admin_0816_0717}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)}&{(6)} \tabularnewline 
+ \midrule 
+ & \multicolumn{3}{c}{Experimental (IV)} & \multicolumn{3}{c}{Observational (OLS)} \tabularnewline 
+ \cmidrule(l){2-4} \cmidrule(l){5-7}
+{Outcome Variable}&{No Controls}&{Strata FEs}&{Post-Lasso}&{No Controls}&{Strata FEs}&{Post-Lasso} \tabularnewline
+\midrule 
+&&&&&& \tabularnewline
+\multicolumn{3}{l}{\textbf{A. Medical Spending [admin]}}&& \tabularnewline
+\midrule Total spending (dollars/month) [admin]&17.7&N/A&N/A&--137.3**&N/A&N/A \tabularnewline
+&(79.0)&N/A&N/A&(68.6)&N/A&N/A \tabularnewline
+&\textit{N=}3,239&N/A&N/A&\textit{N=}2,208&N/A&N/A \tabularnewline
+&&&&&& \tabularnewline
+\ \ \ \ Drug spending [admin]&--13.8&N/A&N/A&--26.3&N/A&N/A \tabularnewline
+&(43.2)&N/A&N/A&(27.2)&N/A&N/A \tabularnewline
+&\textit{N=}3,239&N/A&N/A&\textit{N=}2,208&N/A&N/A \tabularnewline
+&&&&&& \tabularnewline
+\ \ \ \ Office spending [admin]&--9.9&N/A&N/A&12.2&N/A&N/A \tabularnewline
+&(16.2)&N/A&N/A&(7.5)&N/A&N/A \tabularnewline
+&\textit{N=}3,239&N/A&N/A&\textit{N=}2,208&N/A&N/A \tabularnewline
+&&&&&& \tabularnewline
+\ \ \ \ Hospital spending [admin]&36.1&N/A&N/A&--118.0**&N/A&N/A \tabularnewline
+&(50.4)&N/A&N/A&(55.7)&N/A&N/A \tabularnewline
+&\textit{N=}3,239&N/A&N/A&\textit{N=}2,208&N/A&N/A \tabularnewline
+&&&&&& \tabularnewline
+Nonzero medical spending [admin]&--0.013&N/A&N/A&0.061***&N/A&N/A \tabularnewline
+&(0.018)&N/A&N/A&(0.014)&N/A&N/A \tabularnewline
+&\textit{N=}3,239&N/A&N/A&\textit{N=}2,208&N/A&N/A \tabularnewline
+\bottomrule\addlinespace[-1.5ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Appendix Table A.5a from Jones, Molitor, and Reif (QJE 2019) using public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}

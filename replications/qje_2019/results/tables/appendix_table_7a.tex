@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\renewcommand\thetable{A.7a}
+\begin{document}
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{Longer-Run Treatment Effects (ITT)}
+\label{tab:appendix_itt_spend_vars_admin_0816_0119}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCCCC}
+
+\toprule
+&{(1)}&{(2)}&{(3)}&{(4)}&{(5)} \tabularnewline \midrule
+{Outcome Variable}&{Horizon (months)}&{Mean}&{No Controls}&{Strata FEs}&{Post-Lasso} \tabularnewline
+\midrule 
+\addlinespace[1.4ex]
+\multicolumn{3}{l}{\textbf{A. Medical Spending [admin]}}& \tabularnewline
+\midrule Total spending (dollars/month) [admin]&30&650.5&--74.7&N/A&N/A \tabularnewline
+&&&(58.5)&N/A&N/A \tabularnewline
+&&&[0.611]&N/A&N/A \tabularnewline
+&&\textit{N=}3,307&\textit{N=}3,307&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+\ \ \ \ Drug spending [admin]&30&148.8&--25.2&N/A&N/A \tabularnewline
+&&&(27.7)&N/A&N/A \tabularnewline
+&&&[0.841]&N/A&N/A \tabularnewline
+&&\textit{N=}3,307&\textit{N=}3,307&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+\ \ \ \ Office spending [admin]&30&74.2&--6.6&N/A&N/A \tabularnewline
+&&&(8.6)&N/A&N/A \tabularnewline
+&&&[0.841]&N/A&N/A \tabularnewline
+&&\textit{N=}3,307&\textit{N=}3,307&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+\ \ \ \ Hospital spending [admin]&30&353.5&--31.7&N/A&N/A \tabularnewline
+&&&(35.6)&N/A&N/A \tabularnewline
+&&&[0.841]&N/A&N/A \tabularnewline
+&&\textit{N=}3,307&\textit{N=}3,307&N/A&N/A \tabularnewline
+\addlinespace[1.4ex]
+Nonzero medical spending [admin]&30&0.950&0.005&N/A&N/A \tabularnewline
+&&&(0.008)&N/A&N/A \tabularnewline
+&&&[0.841]&N/A&N/A \tabularnewline
+&&\textit{N=}3,307&\textit{N=}3,307&N/A&N/A \tabularnewline
+\bottomrule\addlinespace[-1.5ex] 
+
+\end{tabularx}
+\begin{flushleft}
+\footnotesize Notes: This table replicates Appendix Table A.7a from Jones, Molitor, and Reif (QJE 2019) using public-use data. The Westfall-Young \(p\)-values, reported in brackets, do not exactly replicate the values from the original paper due to censoring in the public-use data. N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{document}
