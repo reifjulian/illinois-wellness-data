@@ -10,7 +10,7 @@ This repository contains public use data for the [Illinois Workplace Wellness St
 
 The following diagram summarizes the organization of the repository.
 ```
-wellness-data                         # Public-use project folder
+illinois-wellness-data                # Public-use project folder
 ├── data                              #   Public-use data
 |   ├── codebooks                     #     Codebooks
 |   ├── csv                           #     Datasets (CSV format)
@@ -30,14 +30,15 @@ The [documentation](/documentation/README.md) folder describes the datasets. The
 
 ```stata
 * Stata code
-use "https://reifjulian.github.io/wellness-data/data/stata/claims.dta", clear
+use "https://reifjulian.github.io/illinois-wellness-data/data/stata/claims.dta", clear
 reg spend_0816_0717 treat [aw=covg_0816_0717], robust
 ```
 
 ```R
 # R code
-library(haven,estimatr)
-my_data <- read_dta("https://reifjulian.github.io/wellness-data/data/stata/claims.dta")
+library(haven)
+library(estimatr)
+my_data <- read_dta("https://reifjulian.github.io/illinois-wellness-data/data/stata/claims.dta")
 lm_robust(spend_0816_0717 ~ treat, data = my_data, weights = covg_0816_0717, se_type = "HC1")
 ```
 
@@ -45,14 +46,14 @@ lm_robust(spend_0816_0717 ~ treat, data = my_data, weights = covg_0816_0717, se_
 
 ```stata
 * Stata code
-use "https://reifjulian.github.io/wellness-data/data/stata/claims.dta", clear
+use "https://reifjulian.github.io/illinois-wellness-data/data/stata/claims.dta", clear
 histogram spendHosp_0816_0717, graphregion(fcolor(white)) freq
 ```
 
 ```R
 # R code
 library(haven)
-my_data <- read_dta("https://reifjulian.github.io/wellness-data/data/stata/claims.dta")
+my_data <- read_dta("https://reifjulian.github.io/illinois-wellness-data/data/stata/claims.dta")
 hist(my_data$spendHosp_0816_0717)
 ```
 
