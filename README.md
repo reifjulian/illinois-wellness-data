@@ -1,5 +1,7 @@
 # Illinois Workplace Wellness Study: Public Use Data Repository
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4064860.svg)](http://dx.doi.org/10.5281/zenodo.4064860)
+
 [`Overview`](#overview) [`Examples`](#examples) [`Restricted-use data`](#restricted-use-data) [`Terms of use`](#terms-of-use) [`References`](#references) [`Update history`](#update-history) 
 
 -----------
