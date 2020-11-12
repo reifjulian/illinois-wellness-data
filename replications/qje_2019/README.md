@@ -10,14 +10,16 @@ This folder contains code that uses the public-use data to replicate results fro
 
 Jones, Damon, David Molitor, and Julian Reif. 2019. “What do Workplace Wellness Programs do? Evidence from the Illinois Workplace Wellness Study.” *Quarterly Journal of Economics*, 134(4): 1747–1791.
 
-The code does not replicate all results because some variables are suppressed in the public-use data. The datasets used in the original analysis are confidential and not publicly available. Instructions to obtain access to the restricted-use data are available at [`Restricted-use data`](../../README.md#Restricted-use-data).
+The code does not replicate all results because some variables are suppressed in the public-use data. The datasets used in the original analysis are confidential and not publicly available. Instructions to obtain access to the restricted-use data are available at [`Restricted-use data`](https://github.com/reifjulian/wellness-data#Restricted-use-data).
+
+Example code is available at [`Restricted-use data`](../../README.md#Restricted-use-data). [here](../README.md#examples).
 
 ## Replication folder structure 
 
 The following diagram summarizes the organization of the replication files.
 
 ```
-illinois-wellness-data                # Public-use project folder
+wellness-data                         # Public-use project folder
 ├── data                              #   Public-use data
 ├── documentation                     #   Public-use data documentation
 └── replications/qje_2019             #   Public-use replication files for Jones, Molitor, and Reif (2019)
@@ -30,12 +32,12 @@ illinois-wellness-data                # Public-use project folder
     |   ├── 3_make_tables_4_A4_A5.do  #       Make tables 4, A4, A5
     |   ├── 4_make_tables_A7.do       #       Make table A7
     |   └── 5_make_table_3.do         #       Make table 3
-    └── run.do                        #     Master replication script that calls all other scripts
+    └── run.do                        #     Master script that calls the replication scripts
 ```
 
 ## Instructions
 
-To replicate the analysis, users must run a single Stata file: `replications/qje_2019/run.do`. This master script contains Stata commands that run all the other scripts in the correct order. These other scripts are contained in the `replications/qje_2019/scripts` directory and are organized as follows:
+First, [download this repository](https://github.com/reifjulian/illinois-wellness-data/archive/master.zip). Then, run the following Stata script: `replications/qje_2019/run.do`. This master script runs all the scripts required to replicate the main results. These other scripts are contained in the `replications/qje_2019/scripts` directory and are organized as follows:
 
 - `scripts/libraries/stata` contains user-built Stata commands used in the analysis. 
 - `scripts/programs` contains custom Stata ado files used in the analysis.
