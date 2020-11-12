@@ -1,6 +1,6 @@
 # Public-Use Replication Files for Jones, Molitor, and Reif (2019)
 
-[`Overview`](#overview) [`Replication folder structure`](#Replication-folder-structure ) [`Instructions`](#Instructions) [`Software, memory, and runtime requirements`](#Software-memory-and-runtime-requirements) [`Citation`](#citation)
+[`Overview`](#overview) [`Replication folder structure`](#replication-folder-structure ) [`Instructions`](#instructions) [`Software, memory, and runtime requirements`](#software-memory-and-runtime-requirements) [`Citation`](#citation)
 
 -----------
 
@@ -10,7 +10,7 @@ This folder contains code that uses the public-use data to replicate results fro
 
 Jones, Damon, David Molitor, and Julian Reif. 2019. “What do Workplace Wellness Programs do? Evidence from the Illinois Workplace Wellness Study.” *Quarterly Journal of Economics*, 134(4): 1747–1791.
 
-The code does not replicate all results because some variables are suppressed in the public-use data. The datasets used in the original analysis are confidential and not publicly available. Instructions to obtain access to the restricted-use data are available on [our home page](../../README.md#Restricted-use-data).
+The code does not replicate all results because some variables are suppressed in the public-use data. The datasets used in the original analysis are confidential and not publicly available. Instructions to obtain access to the restricted-use data are available on [our home page](../../README.md#restricted-use-data).
 
 
 ## Replication folder structure 
