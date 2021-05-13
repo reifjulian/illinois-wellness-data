@@ -103,7 +103,7 @@ restore, not
 
 ***
 * Joint balance tests: for each panel, are the regressors jointly predictive of enrollment into treatment/control groups? 
-* Regress indicator on all panel variables. Do this simultaneously for all 7 groups using seemingly unrelated regression
+* Regress indicator on all panel variables.
 ***
 
 foreach panel in A B C {
