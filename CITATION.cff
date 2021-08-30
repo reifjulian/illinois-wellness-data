@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+authors:
+  - family-names: "Jones"
+    given-names: "Damon"
+  - family-names: "Molitor"
+    given-names: "David"
+  - family-names: "Reif"
+    given-names: "Julian"
+title: "Illinois Workplace Wellness Study: Public Use Data Repository"
+version: 1.0
+doi: 10.5281/zenodo.4064859
+date-released: 2020-10-01
+url: "https://github.com/reifjulian/illinois-wellness-data"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Jones"
+    given-names: "Damon"
+  - family-names: "Molitor"
+    given-names: "David"
+  - family-names: "Reif"
+    given-names: "Julian"
+  journal: "Quarterly Journal of Economics"
+  month: 11
+  start: 1747 # First page number
+  end: 1791 # Last page number
+  title: "What Do Workplace Wellness Programs Do? Evidence from the Illinois Workplace Wellness Study"
+  issue: 4
+  volume: 134
+  year: 2019
+
