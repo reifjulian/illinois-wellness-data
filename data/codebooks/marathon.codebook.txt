@@ -38,116 +38,116 @@ CODEBOOK
 treat                                                                                                 0=control, 1=treat
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         1,534  0
-                         3,300  1
+            Tabulation: Freq.  Value
+                        1,534  0
+                        3,300  1
 
 ------------------------------------------------------------------------------------------------------------------------
 hra_c_yr1                                                                                  Completed 2016 Wellsource HRA
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,534/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,534/4,834
 
-            tabulation:  Freq.  Value
-                         1,452  0
-                         1,848  1
-                         1,534  .
+            Tabulation: Freq.  Value
+                        1,452  0
+                        1,848  1
+                        1,534  .
 
 ------------------------------------------------------------------------------------------------------------------------
 male                                                                                         Male indicator (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         2,770  0
-                         2,064  1
+            Tabulation: Freq.  Value
+                        2,770  0
+                        2,064  1
 
 ------------------------------------------------------------------------------------------------------------------------
 age50                                                                                      Ages 50 and over (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,260  0
-                         1,574  1
+            Tabulation: Freq.  Value
+                        3,260  0
+                        1,574  1
 
 ------------------------------------------------------------------------------------------------------------------------
 age37_49                                                                                         Ages 37-49 (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,215  0
-                         1,619  1
+            Tabulation: Freq.  Value
+                        3,215  0
+                        1,619  1
 
 ------------------------------------------------------------------------------------------------------------------------
 white                                                                                      HR race is white (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                           786  0
-                         4,048  1
+            Tabulation: Freq.  Value
+                          786  0
+                        4,048  1
 
 ------------------------------------------------------------------------------------------------------------------------
 marathon_2014_2016                                                             IL Marathon participant anytime 2014-2016
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         4,281  0
-                           553  1
+            Tabulation: Freq.  Value
+                        4,281  0
+                          553  1
 
 ------------------------------------------------------------------------------------------------------------------------
 marathon_2017                                                                            IL Marathon participant in 2017
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         4,517  0
-                           317  1
+            Tabulation: Freq.  Value
+                        4,517  0
+                          317  1
 
 ------------------------------------------------------------------------------------------------------------------------
 marathon_2018                                                                            IL Marathon participant in 2018
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         4,585  0
-                           249  1
+            Tabulation: Freq.  Value
+                        4,585  0
+                          249  1

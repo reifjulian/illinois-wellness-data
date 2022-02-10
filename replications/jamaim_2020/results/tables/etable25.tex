@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\usepackage{pdflscape}
+\usepackage{caption}
+\captionsetup{labelformat=empty}
+\begin{document}
+
+\begin{landscape}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{eTable 25. Mean Values and Effect of Wellness Program on Primary Care Physician (PCP) Utilization$^{a}$}
+{\tiny
+\begin{tabularx}{\linewidth}{lCClCClCC}
+
+\toprule
+& \multicolumn{2}{c}{Mean Value} & \multicolumn{3}{c}{Effect of Wellness Program Eligibility} & \multicolumn{3}{c}{Effect of Wellness Program Participation} \tabularnewline \cmidrule(lr){2-3} \cmidrule(lr){4-6} \cmidrule(lr){7-9} \tabularnewline
+\midrule \addlinespace[\belowrulesep]
+Outcome&Treatment&Control&Effect (95\% CI)&P Value&Adjusted P Value$^{b}$&Effect (95\% CI)&P Value&Adjusted P Value$^{b}$ \tabularnewline
+\midrule PCP utilization, 2017&&&&&&&& \tabularnewline
+\hspace{1em} Continuous measures&&&&&&&& \tabularnewline
+\hspace{2em} Total PCP visits&1.0  (2.2)&1.1  (2.3)&--0.06 (--0.22 to 0.11)&0.50&0.96&--0.09 (--0.34 to 0.17)&0.50&0.96 \tabularnewline
+\hspace{2em} Total PCP office visits&0.5  (2.0)&0.6  (2.2)&--0.08 (--0.22 to 0.06)&0.27&0.78&--0.13 (--0.35 to 0.10)&0.27&0.77 \tabularnewline
+\hspace{1em} Binary measures, \%&&&&&&&& \tabularnewline
+\hspace{2em} Any PCP visits&37.2  (48.3)&38.4  (48.7)&--0.52 (--3.98 to 2.94)&0.77&0.99&--0.83 (--6.28 to 4.62)&0.77&0.99 \tabularnewline
+\hspace{2em} Any PCP office visits&11.6  (32.1)&11.6  (32.0)&--0.36 (--2.37 to 1.65)&0.72&0.99&--0.58 (--3.74 to 2.59)&0.72&0.99 \tabularnewline
+PCP utilization, 2018&&&&&&&& \tabularnewline
+\hspace{1em} Continuous measures&&&&&&&& \tabularnewline
+\hspace{2em} Total PCP visits&2.1  (4.1)&2.1  (4.2)&--0.01 (--0.30 to 0.28)&0.95&0.99&--0.01 (--0.47 to 0.44)&0.95&0.99 \tabularnewline
+\hspace{2em} Total PCP office visits&1.1  (3.8)&1.1  (4.0)&--0.07 (--0.33 to 0.19)&0.59&0.97&--0.11 (--0.52 to 0.29)&0.59&0.97 \tabularnewline
+\hspace{1em} Binary measures, \%&&&&&&&& \tabularnewline
+\hspace{2em} Any PCP visits&52.6  (49.9)&52.9  (49.9)&0.69 (--2.91 to 4.29)&0.71&0.99&1.09 (--4.57 to 6.76)&0.70&0.99 \tabularnewline
+\hspace{2em} Any PCP office visits&15.0  (35.7)&15.1  (35.8)&--0.65 (--2.85 to 1.55)&0.56&0.97&--1.03 (--4.49 to 2.43)&0.56&0.97 \tabularnewline
+Standardized treatment effect$^{c}$&&&&&&&& \tabularnewline
+\hspace{2em} PCP utilization&&&--0.01 (--0.07 to 0.05)&0.76&&--0.01 (--0.10 to 0.08)&0.86& \tabularnewline
+\bottomrule \addlinespace[\belowrulesep]
+
+\end{tabularx}
+\begin{flushleft}
+\tiny $^{a}$ This table reports effects of program eligibility and local mean treatment effects of program participation. All regressions included stratification variables as controls. All regressions included stratification variables and baseline PCP utilization as controls. All regressions and means were weighted by the employee's number of months of insurance coverage in the postintervention period. The 2017 period is defined as August 2016 to July 2017, and the 2018 period is defined as August 2016 to July 2018. \newline $^{b}$ Adjusted P values account for the 8 hypotheses tested in this domain. \newline $^{c}$ The standardized treatment effect gives equal weight to each outcome within a domain and includes both the 2017 and 2018 outcomes.
+\end{flushleft}
+}
+\end{table}
+\end{landscape}
+\end{document}

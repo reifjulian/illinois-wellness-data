@@ -4,5 +4,6 @@
 *.aux
 *.synctex.gz
 *.log
+*.log.txt
 replications/qje_2019/results/intermediate/
 replications/qje_2019/scripts/logs/

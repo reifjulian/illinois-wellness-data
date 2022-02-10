@@ -3,6 +3,8 @@
 
 This public repository includes five datasets:
 
+- **biometrics**: clinician-collected biometric data, self-reported health beliefs, and self-reported health behaviors
+
 - **claims**: monthly medical spending derived from health insurance claims
 
 - **firm_admin**: employee sick leave, gym visits, promotions, terminations, and productivity
@@ -24,5 +26,5 @@ Summary statistics for each variable are provided by [codebooks](../data/codeboo
 
 # Additional materials
 
-Section 2 and Appendix D of [Jones, Molitor, and Reif 2019](https://www.nber.org/workplacewellness/s/IL_Wellness_Study_1.pdf) provide detailed information about the experimental design of the Illinois Workplace Wellness Study and about the data that were collected for the study. Study materials such as the online and on-site surveys are available on the [study website](https://www.nber.org/workplacewellness/downloads/).
+Section 2 and Appendix D of [Jones, Molitor, and Reif 2019](https://www.nber.org/workplacewellness/s/IL_Wellness_Study_1.pdf) provide detailed information about the experimental design of the Illinois Workplace Wellness Study and about the data that were collected for the study. Study materials such as the online and on-site surveys are available on the [study website](https://www.nber.org/programs-projects/projects-and-centers/workplace-wellness/illinois-workplace-wellness-downloads).
 

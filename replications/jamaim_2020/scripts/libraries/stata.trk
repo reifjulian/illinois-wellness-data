@@ -1,0 +1,178 @@
+* 00000006
+*! version 1.0.0
+* Do not erase or edit this file
+* It is used by Stata to track the ado and help
+* files you have installed.
+
+S https://raw.githubusercontent.com/reifjulian/regsave/master
+N regsave.pkg
+D 14 Oct 2021
+U 1
+d regsave. Extract and store regression results.
+d Julian Reif, University of Illinois (jreif@illinois.edu)
+f r\regsave.ado
+f r\regsave.hlp
+f r\regsave_tbl.ado
+f r\regsave_tbl.hlp
+e
+S https://raw.githubusercontent.com/reifjulian/texsave/master
+N texsave.pkg
+D 14 Oct 2021
+U 2
+d texsave. Save dataset in LaTeX format.
+d Julian Reif, University of Illinois (jreif@illinois.edu)
+f t\texsave.ado
+f t\texsave.sthlp
+f a\appendfile.ado
+f a\appendfile.hlp
+e
+S https://raw.githubusercontent.com/reifjulian/wyoung/master
+N wyoung.pkg
+D 14 Oct 2021
+U 3
+d regsave. Extract and store regression results.
+d Julian Reif, University of Illinois (jreif@illinois.edu)
+f w\wyoung.ado
+f w\wyoung.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/i
+N ivreg2.pkg
+D 19 Oct 2021
+U 4
+d 'IVREG2': module for extended instrumental variables/2SLS and GMM estimation
+d 
+d  ivreg2 provides extensions to Stata's official ivregress and
+d newey. Its main capabilities: two-step feasible GMM estimation;
+d continuously updated GMM estimation (CUE); LIML and k-class
+d estimation; automatic output of the Hansen-Sargan or
+d Anderson-Rubin statistic for overidentifying restrictions; C
+d statistic test of exogeneity of subsets of instruments (orthog()
+d option); kernel-based autocorrelation-consistent (AC) and
+d heteroskedastic and autocorrelation-consistent (HAC) estimation,
+d with user-specified choice of kernel; Cragg's "heteroskedastic
+d OLS" (HOLS) estimator; default reporting of large-sample
+d statistics (z and chi-squared rather than t and F); small option
+d to report small-sample statistics; first-stage regression
+d reported with F-test of excluded instruments and R-squared with
+d included instruments "partialled-out"; enhanced Kleibergen-Paap
+d and Cragg-Donald tests for weak instruments, redundancy of
+d instruments, significance of endogenous regressors; two-way
+d clustering of standard errors;  Kiefer and Driscoll-Kraay
+d standard errors. ivreg2 can also be used for ordinary least
+d squares (OLS) estimation using the same command syntax as Stata's
+d official regress and newey. New in this version: ivreg2 now
+d supports factor variables. This is version 4.1.11 of ivreg2,
+d updated from that published in Stata Journal, 5(4), requiring
+d Stata 11.2 or better. Stata 8.2/9.2/10.2 users may use this
+d routine, which will  automatically call ivreg28, ivreg29, or
+d ivreg210, respectively. These versions are now included in the
+d ivreg2 package. Stata 7 users may use the Stata Journal version
+d of ivreg2, accessible via net search ivreg2.
+d 
+d KW: instrumental variables
+d KW: Sargan test
+d KW: robust estimation
+d KW: orthogonality
+d KW: GMM
+d KW: Hansen's J
+d KW: heteroskedastic OLS,
+d 
+d Requires: Stata version 11.2 and ranktest from SSC
+d 
+d Distribution-Date: 20200626
+d 
+d Author: Christopher F Baum, Boston College
+d Support: email baum@@bc.edu
+d 
+d Author: Mark E Schaffer, Heriot-Watt University
+d Support: email m.e.schaffer@@hw.ac.uk
+d 
+d Author: Steven Stillman, Free University of Bozen-Bolzano
+d Support: email  Steven.Stillman@@unibz.it
+d 
+f i\ivreg2.ado
+f i\ivreg2.sthlp
+f i\ivreg2_p.ado
+f l\livreg2.mlib
+f i\ivreg210.ado
+f i\ivreg210.sthlp
+f i\ivreg210_p.ado
+f i\ivreg29.ado
+f i\ivreg29.hlp
+f i\ivreg29_p.ado
+f i\ivreg29_cue.ado
+f i\ivreg28.ado
+f i\ivreg28.hlp
+f i\ivreg28_p.ado
+f i\ivreg28_cue.ado
+e
+S http://fmwww.bc.edu/repec/bocode/r
+N ranktest.pkg
+D 19 Oct 2021
+U 5
+d 'RANKTEST': module to test the rank of a matrix
+d 
+d  ranktest implements various tests for the rank of a matrix.
+d Tests of the rank of a matrix have many practical applications.
+d For example, in econometrics the requirement for identification
+d is the rank condition, which states that a particular matrix must
+d be of full column rank. Another example from econometrics
+d concerns cointegration in vector autoregressive (VAR) models; the
+d Johansen trace test is a test of a rank of a particular matrix.
+d The traditional test of the rank of a matrix for the standard
+d (stationary) case is the Anderson (1951) canonical correlations
+d test. If we denote one list of variables as Y and a second as Z,
+d and we calculate the squared canonical correlations between Y and
+d Z, the LM form of the Anderson test, where the null hypothesis is
+d that the matrix of correlations or regression parameters B
+d between Y and Z has rank(B)=r, is N times the sum of the r+1
+d largest squared canonical correlations. A large test statistic
+d and rejection of the null indicates that the matrix has rank at
+d least r+1. The Cragg-Donald (1993) statistic is a closely related
+d Wald test for the rank of a matrix. The standard versions of
+d these tests require the assumption that the covariance matrix has
+d a Kronecker form; when this is not so, e.g., when disturbances
+d are heteroskedastic or autocorrelated, the test statistics are no
+d longer valid. ranktest implements various generalizations of
+d these tests - Kleibergen-Paap, Cragg-Donald, and J-type 2-step
+d GMM and CUE GMM tests - to the case of a non-Kronecker covariance
+d matrix. The implementation in ranktest will calculate test
+d statistics that are robust to various forms of
+d heteroskedasticity, autocorrelation, and clustering.
+d 
+d KW: matrix
+d KW: rank
+d KW: collinearity
+d KW: cointegration
+d 
+d Requires: Stata version 12 (version 9.2 for ranktest9, version 11 for ranktest11)
+d 
+d Distribution-Date: 20200929
+d 
+d Author: Frank Kleibergen, Brown University
+d Support: email  Frank_Kleibergen@@brown.edu
+d 
+d Author: Mark E Schaffer, Heriot-Watt University
+d Support: email m.e.schaffer@@hw.ac.uk
+d 
+d Author: Frank Windmeijer, University of Oxford
+d Support: email frank.windmeijer@@stats.ox.ac.uk
+d 
+f r\ranktest.ado
+f r\ranktest9.ado
+f r\ranktest11.ado
+f r\ranktest.sthlp
+f r\ranktest11.sthlp
+f l\livreg2.mlib
+e
+S https://raw.githubusercontent.com/reifjulian/texsave/master
+N texsave.pkg
+D  4 Jan 2022
+U 6
+d texsave. Save dataset in LaTeX format.
+d Julian Reif, University of Illinois (jreif@illinois.edu)
+f t\texsave.ado
+f t\texsave.sthlp
+f a\appendfile.ado
+f a\appendfile.hlp
+e

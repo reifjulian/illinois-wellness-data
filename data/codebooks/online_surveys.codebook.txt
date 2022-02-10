@@ -206,1286 +206,1286 @@ CODEBOOK
 treat                                                                                                 0=control, 1=treat
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         1,534  0
-                         3,300  1
+            Tabulation: Freq.  Value
+                        1,534  0
+                        3,300  1
 
 ------------------------------------------------------------------------------------------------------------------------
 hra_c_yr1                                                                                  Completed 2016 Wellsource HRA
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,534/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,534/4,834
 
-            tabulation:  Freq.  Value
-                         1,452  0
-                         1,848  1
-                         1,534  .
+            Tabulation: Freq.  Value
+                        1,452  0
+                        1,848  1
+                        1,534  .
 
 ------------------------------------------------------------------------------------------------------------------------
 male                                                                                         Male indicator (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         2,770  0
-                         2,064  1
+            Tabulation: Freq.  Value
+                        2,770  0
+                        2,064  1
 
 ------------------------------------------------------------------------------------------------------------------------
 age50                                                                                      Ages 50 and over (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,260  0
-                         1,574  1
+            Tabulation: Freq.  Value
+                        3,260  0
+                        1,574  1
 
 ------------------------------------------------------------------------------------------------------------------------
 age37_49                                                                                         Ages 37-49 (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,215  0
-                         1,619  1
+            Tabulation: Freq.  Value
+                        3,215  0
+                        1,619  1
 
 ------------------------------------------------------------------------------------------------------------------------
 white                                                                                      HR race is white (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                           786  0
-                         4,048  1
+            Tabulation: Freq.  Value
+                          786  0
+                        4,048  1
 
 ------------------------------------------------------------------------------------------------------------------------
 everscreen_0716                                                          Had at least 1 previous health screening (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                           533  0
-                         4,301  1
+            Tabulation: Freq.  Value
+                          533  0
+                        4,301  1
 
 ------------------------------------------------------------------------------------------------------------------------
 everscreen_0717                                                          Had at least 1 previous health screening (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                           207  0
-                         3,360  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                          207  0
+                        3,360  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 everscreen_0718                                                          Had at least 1 previous health screening (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,814/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,814/4,834
 
-            tabulation:  Freq.  Value
-                           115  0
-                         2,905  1
-                         1,814  .
+            Tabulation: Freq.  Value
+                          115  0
+                        2,905  1
+                        1,814  .
 
 ------------------------------------------------------------------------------------------------------------------------
 active_0716                                                                                     Physically active (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,024  0
-                         1,810  1
+            Tabulation: Freq.  Value
+                        3,024  0
+                        1,810  1
 
 ------------------------------------------------------------------------------------------------------------------------
 active_0717                                                                                     Physically active (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                         2,208  0
-                         1,359  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                        2,208  0
+                        1,359  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 active_0718                                                                                     Physically active (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,814/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,814/4,834
 
-            tabulation:  Freq.  Value
-                         1,895  0
-                         1,125  1
-                         1,814  .
+            Tabulation: Freq.  Value
+                        1,895  0
+                        1,125  1
+                        1,814  .
 
 ------------------------------------------------------------------------------------------------------------------------
 active_try_0716                                                                          Trying to be more active (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                           903  0
-                         3,931  1
+            Tabulation: Freq.  Value
+                          903  0
+                        3,931  1
 
 ------------------------------------------------------------------------------------------------------------------------
 active_try_0717                                                                          Trying to be more active (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                           626  0
-                         2,941  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                          626  0
+                        2,941  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 active_try_0718                                                                          Trying to be more active (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,814/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,814/4,834
 
-            tabulation:  Freq.  Value
-                           578  0
-                         2,442  1
-                         1,814  .
+            Tabulation: Freq.  Value
+                          578  0
+                        2,442  1
+                        1,814  .
 
 ------------------------------------------------------------------------------------------------------------------------
 cursmk_0716                                                                                        Current smoker (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1/4,834
 
-            tabulation:  Freq.  Value
-                         4,507  0
-                           326  1
-                             1  .
+            Tabulation: Freq.  Value
+                        4,507  0
+                          326  1
+                            1  .
 
 ------------------------------------------------------------------------------------------------------------------------
 cursmk_0717                                                                                        Current smoker (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,268/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,268/4,834
 
-            tabulation:  Freq.  Value
-                         3,353  0
-                           213  1
-                         1,268  .
+            Tabulation: Freq.  Value
+                        3,353  0
+                          213  1
+                        1,268  .
 
 ------------------------------------------------------------------------------------------------------------------------
 cursmk_0718                                                                                        Current smoker (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,817/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,817/4,834
 
-            tabulation:  Freq.  Value
-                         2,844  0
-                           173  1
-                         1,817  .
+            Tabulation: Freq.  Value
+                        2,844  0
+                          173  1
+                        1,817  .
 
 ------------------------------------------------------------------------------------------------------------------------
 othersmk_0716                                                                   Other (non-cigarette) tobacco use (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1/4,834
 
-            tabulation:  Freq.  Value
-                         4,422  0
-                           411  1
-                             1  .
+            Tabulation: Freq.  Value
+                        4,422  0
+                          411  1
+                            1  .
 
 ------------------------------------------------------------------------------------------------------------------------
 othersmk_0717                                                                   Other (non-cigarette) tobacco use (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                         3,288  0
-                           279  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                        3,288  0
+                          279  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 othersmk_0718                                                                   Other (non-cigarette) tobacco use (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,816/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,816/4,834
 
-            tabulation:  Freq.  Value
-                         2,802  0
-                           216  1
-                         1,816  .
+            Tabulation: Freq.  Value
+                        2,802  0
+                          216  1
+                        1,816  .
 
 ------------------------------------------------------------------------------------------------------------------------
 formsmk_0716                                                                                        Former smoker (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1/4,834
 
-            tabulation:  Freq.  Value
-                         3,885  0
-                           948  1
-                             1  .
+            Tabulation: Freq.  Value
+                        3,885  0
+                          948  1
+                            1  .
 
 ------------------------------------------------------------------------------------------------------------------------
 formsmk_0717                                                                                        Former smoker (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,268/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,268/4,834
 
-            tabulation:  Freq.  Value
-                         2,867  0
-                           699  1
-                         1,268  .
+            Tabulation: Freq.  Value
+                        2,867  0
+                          699  1
+                        1,268  .
 
 ------------------------------------------------------------------------------------------------------------------------
 formsmk_0718                                                                                        Former smoker (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,817/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,817/4,834
 
-            tabulation:  Freq.  Value
-                         2,409  0
-                           608  1
-                         1,817  .
+            Tabulation: Freq.  Value
+                        2,409  0
+                          608  1
+                        1,817  .
 
 ------------------------------------------------------------------------------------------------------------------------
 drink_0716                                                                                                Drinker (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  4/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 4/4,834
 
-            tabulation:  Freq.  Value
-                         1,695  0
-                         3,135  1
-                             4  .
+            Tabulation: Freq.  Value
+                        1,695  0
+                        3,135  1
+                            4  .
 
 ------------------------------------------------------------------------------------------------------------------------
 drink_0717                                                                                                Drinker (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,269/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,269/4,834
 
-            tabulation:  Freq.  Value
-                         1,169  0
-                         2,396  1
-                         1,269  .
+            Tabulation: Freq.  Value
+                        1,169  0
+                        2,396  1
+                        1,269  .
 
 ------------------------------------------------------------------------------------------------------------------------
 drink_0718                                                                                                Drinker (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,817/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,817/4,834
 
-            tabulation:  Freq.  Value
-                         1,012  0
-                         2,005  1
-                         1,817  .
+            Tabulation: Freq.  Value
+                        1,012  0
+                        2,005  1
+                        1,817  .
 
 ------------------------------------------------------------------------------------------------------------------------
 drinkhvy_0716                                                                                       Heavy drinker (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  5/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 5/4,834
 
-            tabulation:  Freq.  Value
-                         4,591  0
-                           238  1
-                             5  .
+            Tabulation: Freq.  Value
+                        4,591  0
+                          238  1
+                            5  .
 
 ------------------------------------------------------------------------------------------------------------------------
 drinkhvy_0717                                                                                       Heavy drinker (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,271/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,271/4,834
 
-            tabulation:  Freq.  Value
-                         3,394  0
-                           169  1
-                         1,271  .
+            Tabulation: Freq.  Value
+                        3,394  0
+                          169  1
+                        1,271  .
 
 ------------------------------------------------------------------------------------------------------------------------
 drinkhvy_0718                                                                                       Heavy drinker (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,817/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,817/4,834
 
-            tabulation:  Freq.  Value
-                         2,873  0
-                           144  1
-                         1,817  .
+            Tabulation: Freq.  Value
+                        2,873  0
+                          144  1
+                        1,817  .
 
 ------------------------------------------------------------------------------------------------------------------------
 chronic_0716                                                                     Has at least 1 chronic condition (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         1,321  0
-                         3,513  1
+            Tabulation: Freq.  Value
+                        1,321  0
+                        3,513  1
 
 ------------------------------------------------------------------------------------------------------------------------
 chronic_0717                                                                     Has at least 1 chronic condition (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,269/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,269/4,834
 
-            tabulation:  Freq.  Value
-                           946  0
-                         2,619  1
-                         1,269  .
+            Tabulation: Freq.  Value
+                          946  0
+                        2,619  1
+                        1,269  .
 
 ------------------------------------------------------------------------------------------------------------------------
 chronic_0718                                                                     Has at least 1 chronic condition (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,814/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,814/4,834
 
-            tabulation:  Freq.  Value
-                           731  0
-                         2,289  1
-                         1,814  .
+            Tabulation: Freq.  Value
+                          731  0
+                        2,289  1
+                        1,814  .
 
 ------------------------------------------------------------------------------------------------------------------------
 health1_0716                                                                     Health is excellent or very good (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         1,947  0
-                         2,887  1
+            Tabulation: Freq.  Value
+                        1,947  0
+                        2,887  1
 
 ------------------------------------------------------------------------------------------------------------------------
 health1_0717                                                                     Health is excellent or very good (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                         1,555  0
-                         2,012  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                        1,555  0
+                        2,012  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 health1_0718                                                                     Health is excellent or very good (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,814/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,814/4,834
 
-            tabulation:  Freq.  Value
-                         1,301  0
-                         1,719  1
-                         1,814  .
+            Tabulation: Freq.  Value
+                        1,301  0
+                        1,719  1
+                        1,814  .
 
 ------------------------------------------------------------------------------------------------------------------------
 health2_0716                                                                                   Health is not poor (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                            52  0
-                         4,782  1
+            Tabulation: Freq.  Value
+                           52  0
+                        4,782  1
 
 ------------------------------------------------------------------------------------------------------------------------
 health2_0717                                                                                   Health is not poor (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                            34  0
-                         3,533  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                           34  0
+                        3,533  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 health2_0718                                                                                   Health is not poor (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,814/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,814/4,834
 
-            tabulation:  Freq.  Value
-                            25  0
-                         2,995  1
-                         1,814  .
+            Tabulation: Freq.  Value
+                           25  0
+                        2,995  1
+                        1,814  .
 
 ------------------------------------------------------------------------------------------------------------------------
 problems_0716                                                           Problems with physical activities or pain (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         2,950  0
-                         1,884  1
+            Tabulation: Freq.  Value
+                        2,950  0
+                        1,884  1
 
 ------------------------------------------------------------------------------------------------------------------------
 problems_0717                                                           Problems with physical activities or pain (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                         2,128  0
-                         1,439  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                        2,128  0
+                        1,439  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 problems_0718                                                           Problems with physical activities or pain (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,814/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,814/4,834
 
-            tabulation:  Freq.  Value
-                         1,795  0
-                         1,225  1
-                         1,814  .
+            Tabulation: Freq.  Value
+                        1,795  0
+                        1,225  1
+                        1,814  .
 
 ------------------------------------------------------------------------------------------------------------------------
 energy_0716                                                                                        Lots of energy (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,269  0
-                         1,565  1
+            Tabulation: Freq.  Value
+                        3,269  0
+                        1,565  1
 
 ------------------------------------------------------------------------------------------------------------------------
 energy_0717                                                                                        Lots of energy (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,268/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,268/4,834
 
-            tabulation:  Freq.  Value
-                         2,465  0
-                         1,101  1
-                         1,268  .
+            Tabulation: Freq.  Value
+                        2,465  0
+                        1,101  1
+                        1,268  .
 
 ------------------------------------------------------------------------------------------------------------------------
 energy_0718                                                                                        Lots of energy (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,815/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,815/4,834
 
-            tabulation:  Freq.  Value
-                         2,065  0
-                           954  1
-                         1,815  .
+            Tabulation: Freq.  Value
+                        2,065  0
+                          954  1
+                        1,815  .
 
 ------------------------------------------------------------------------------------------------------------------------
 ehealth_0716                                                                                     Emotional health (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,409  0
-                         1,425  1
+            Tabulation: Freq.  Value
+                        3,409  0
+                        1,425  1
 
 ------------------------------------------------------------------------------------------------------------------------
 ehealth_0717                                                                                     Emotional health (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,268/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,268/4,834
 
-            tabulation:  Freq.  Value
-                         2,457  0
-                         1,109  1
-                         1,268  .
+            Tabulation: Freq.  Value
+                        2,457  0
+                        1,109  1
+                        1,268  .
 
 ------------------------------------------------------------------------------------------------------------------------
 ehealth_0718                                                                                     Emotional health (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,816/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,816/4,834
 
-            tabulation:  Freq.  Value
-                         2,124  0
-                           894  1
-                         1,816  .
+            Tabulation: Freq.  Value
+                        2,124  0
+                          894  1
+                        1,816  .
 
 ------------------------------------------------------------------------------------------------------------------------
 overweight_0716                                                                                 Overweight status (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         2,239  0
-                         2,595  1
+            Tabulation: Freq.  Value
+                        2,239  0
+                        2,595  1
 
 ------------------------------------------------------------------------------------------------------------------------
 overweight_0717                                                                                 Overweight status (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                         1,562  0
-                         2,005  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                        1,562  0
+                        2,005  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 overweight_0718                                                                                 Overweight status (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,815/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,815/4,834
 
-            tabulation:  Freq.  Value
-                         1,315  0
-                         1,704  1
-                         1,815  .
+            Tabulation: Freq.  Value
+                        1,315  0
+                        1,704  1
+                        1,815  .
 
 ------------------------------------------------------------------------------------------------------------------------
 badhealth_0716                                                       High blood pressure, cholesterol, or glucose (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,387  0
-                         1,447  1
+            Tabulation: Freq.  Value
+                        3,387  0
+                        1,447  1
 
 ------------------------------------------------------------------------------------------------------------------------
 badhealth_0717                                                       High blood pressure, cholesterol, or glucose (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                         2,411  0
-                         1,156  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                        2,411  0
+                        1,156  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 badhealth_0718                                                       High blood pressure, cholesterol, or glucose (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,815/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,815/4,834
 
-            tabulation:  Freq.  Value
-                         2,023  0
-                           996  1
-                         1,815  .
+            Tabulation: Freq.  Value
+                        2,023  0
+                          996  1
+                        1,815  .
 
 ------------------------------------------------------------------------------------------------------------------------
 sedentary_0716                                                                                      Sedentary job (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1/4,834
 
-            tabulation:  Freq.  Value
-                         2,209  0
-                         2,624  1
-                             1  .
+            Tabulation: Freq.  Value
+                        2,209  0
+                        2,624  1
+                            1  .
 
 ------------------------------------------------------------------------------------------------------------------------
 sedentary_0717                                                                                      Sedentary job (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,269/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,269/4,834
 
-            tabulation:  Freq.  Value
-                         1,568  0
-                         1,997  1
-                         1,269  .
+            Tabulation: Freq.  Value
+                        1,568  0
+                        1,997  1
+                        1,269  .
 
 ------------------------------------------------------------------------------------------------------------------------
 sedentary_0718                                                                                      Sedentary job (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,816/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,816/4,834
 
-            tabulation:  Freq.  Value
-                         1,350  0
-                         1,668  1
-                         1,816  .
+            Tabulation: Freq.  Value
+                        1,350  0
+                        1,668  1
+                        1,816  .
 
 ------------------------------------------------------------------------------------------------------------------------
 druguse_0716                                                                     Taking 1+ prescription/OTC drugs (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  4/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 4/4,834
 
-            tabulation:  Freq.  Value
-                         1,394  0
-                         3,436  1
-                             4  .
+            Tabulation: Freq.  Value
+                        1,394  0
+                        3,436  1
+                            4  .
 
 ------------------------------------------------------------------------------------------------------------------------
 druguse_0717                                                                     Taking 1+ prescription/OTC drugs (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                           980  0
-                         2,587  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                          980  0
+                        2,587  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 druguse_0718                                                                     Taking 1+ prescription/OTC drugs (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,815/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,815/4,834
 
-            tabulation:  Freq.  Value
-                           818  0
-                         2,201  1
-                         1,815  .
+            Tabulation: Freq.  Value
+                          818  0
+                        2,201  1
+                        1,815  .
 
 ------------------------------------------------------------------------------------------------------------------------
 physician_0716                                                                        Physician or ER utilization (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1/4,834
 
-            tabulation:  Freq.  Value
-                         1,180  0
-                         3,653  1
-                             1  .
+            Tabulation: Freq.  Value
+                        1,180  0
+                        3,653  1
+                            1  .
 
 ------------------------------------------------------------------------------------------------------------------------
 physician_0717                                                                        Physician or ER utilization (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                           909  0
-                         2,658  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                          909  0
+                        2,658  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 physician_0718                                                                        Physician or ER utilization (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,815/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,815/4,834
 
-            tabulation:  Freq.  Value
-                           709  0
-                         2,310  1
-                         1,815  .
+            Tabulation: Freq.  Value
+                          709  0
+                        2,310  1
+                        1,815  .
 
 ------------------------------------------------------------------------------------------------------------------------
 hospital_0716                                                                                Hospital utilization (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1/4,834
 
-            tabulation:  Freq.  Value
-                         4,686  0
-                           147  1
-                             1  .
+            Tabulation: Freq.  Value
+                        4,686  0
+                          147  1
+                            1  .
 
 ------------------------------------------------------------------------------------------------------------------------
 hospital_0717                                                                                Hospital utilization (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                         3,476  0
-                            91  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                        3,476  0
+                           91  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 hospital_0718                                                                                Hospital utilization (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,815/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,815/4,834
 
-            tabulation:  Freq.  Value
-                         2,937  0
-                            82  1
-                         1,815  .
+            Tabulation: Freq.  Value
+                        2,937  0
+                           82  1
+                        1,815  .
 
 ------------------------------------------------------------------------------------------------------------------------
 sickdays_0716                                                       Sick days in past 12 months (baseline survey) (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  6/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 6/4,834
 
-            tabulation:  Freq.  Value
-                         1,903  0
-                         2,925  1
-                             6  .
+            Tabulation: Freq.  Value
+                        1,903  0
+                        2,925  1
+                            6  .
 
 ------------------------------------------------------------------------------------------------------------------------
 sickdays_0717                                                       Sick days in past 12 months (baseline survey) (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,269/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,269/4,834
 
-            tabulation:  Freq.  Value
-                         1,512  0
-                         2,053  1
-                         1,269  .
+            Tabulation: Freq.  Value
+                        1,512  0
+                        2,053  1
+                        1,269  .
 
 ------------------------------------------------------------------------------------------------------------------------
 sickdays_0718                                                       Sick days in past 12 months (baseline survey) (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,816/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,816/4,834
 
-            tabulation:  Freq.  Value
-                         1,234  0
-                         1,784  1
-                         1,816  .
+            Tabulation: Freq.  Value
+                        1,234  0
+                        1,784  1
+                        1,816  .
 
 ------------------------------------------------------------------------------------------------------------------------
 hrsworked50_0716                                                                 Worked 50 or more hours per week (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  3/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 3/4,834
 
-            tabulation:  Freq.  Value
-                         3,974  0
-                           857  1
-                             3  .
+            Tabulation: Freq.  Value
+                        3,974  0
+                          857  1
+                            3  .
 
 ------------------------------------------------------------------------------------------------------------------------
 hrsworked50_0717                                                                 Worked 50 or more hours per week (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,268/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,268/4,834
 
-            tabulation:  Freq.  Value
-                         3,030  0
-                           536  1
-                         1,268  .
+            Tabulation: Freq.  Value
+                        3,030  0
+                          536  1
+                        1,268  .
 
 ------------------------------------------------------------------------------------------------------------------------
 hrsworked50_0718                                                                 Worked 50 or more hours per week (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,816/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,816/4,834
 
-            tabulation:  Freq.  Value
-                         2,599  0
-                           419  1
-                         1,816  .
+            Tabulation: Freq.  Value
+                        2,599  0
+                          419  1
+                        1,816  .
 
 ------------------------------------------------------------------------------------------------------------------------
 jobsatisf1_0716                                                                           Very satisfied with job (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  2/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 2/4,834
 
-            tabulation:  Freq.  Value
-                         2,878  0
-                         1,954  1
-                             2  .
+            Tabulation: Freq.  Value
+                        2,878  0
+                        1,954  1
+                            2  .
 
 ------------------------------------------------------------------------------------------------------------------------
 jobsatisf1_0717                                                                           Very satisfied with job (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,270/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,270/4,834
 
-            tabulation:  Freq.  Value
-                         2,186  0
-                         1,378  1
-                         1,270  .
+            Tabulation: Freq.  Value
+                        2,186  0
+                        1,378  1
+                        1,270  .
 
 ------------------------------------------------------------------------------------------------------------------------
 jobsatisf1_0718                                                                           Very satisfied with job (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,817/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,817/4,834
 
-            tabulation:  Freq.  Value
-                         1,792  0
-                         1,225  1
-                         1,817  .
+            Tabulation: Freq.  Value
+                        1,792  0
+                        1,225  1
+                        1,817  .
 
 ------------------------------------------------------------------------------------------------------------------------
 jobsatisf2_0716                                                               Very or somewhat satisfied with job (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  2/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 2/4,834
 
-            tabulation:  Freq.  Value
-                           764  0
-                         4,068  1
-                             2  .
+            Tabulation: Freq.  Value
+                          764  0
+                        4,068  1
+                            2  .
 
 ------------------------------------------------------------------------------------------------------------------------
 jobsatisf2_0717                                                               Very or somewhat satisfied with job (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,270/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,270/4,834
 
-            tabulation:  Freq.  Value
-                           589  0
-                         2,975  1
-                         1,270  .
+            Tabulation: Freq.  Value
+                          589  0
+                        2,975  1
+                        1,270  .
 
 ------------------------------------------------------------------------------------------------------------------------
 jobsatisf2_0718                                                               Very or somewhat satisfied with job (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,817/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,817/4,834
 
-            tabulation:  Freq.  Value
-                           505  0
-                         2,512  1
-                         1,817  .
+            Tabulation: Freq.  Value
+                          505  0
+                        2,512  1
+                        1,817  .
 
 ------------------------------------------------------------------------------------------------------------------------
 mgmtsafety_0716                                     Management places very high or some priority on health/safety (2016)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  3/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 3/4,834
 
-            tabulation:  Freq.  Value
-                         1,071  0
-                         3,760  1
-                             3  .
+            Tabulation: Freq.  Value
+                        1,071  0
+                        3,760  1
+                            3  .
 
 ------------------------------------------------------------------------------------------------------------------------
 mgmtsafety_0717                                     Management places very high or some priority on health/safety (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,268/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,268/4,834
 
-            tabulation:  Freq.  Value
-                           750  0
-                         2,816  1
-                         1,268  .
+            Tabulation: Freq.  Value
+                          750  0
+                        2,816  1
+                        1,268  .
 
 ------------------------------------------------------------------------------------------------------------------------
 mgmtsafety_0718                                     Management places very high or some priority on health/safety (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,816/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,816/4,834
 
-            tabulation:  Freq.  Value
-                           653  0
-                         2,365  1
-                         1,816  .
+            Tabulation: Freq.  Value
+                          653  0
+                        2,365  1
+                        1,816  .
 
 ------------------------------------------------------------------------------------------------------------------------
 happywork_0717                                                                     Happier at work than last year (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,272/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,272/4,834
 
-            tabulation:  Freq.  Value
-                         1,632  0
-                         1,930  1
-                         1,272  .
+            Tabulation: Freq.  Value
+                        1,632  0
+                        1,930  1
+                        1,272  .
 
 ------------------------------------------------------------------------------------------------------------------------
 happywork_0718                                                                     Happier at work than last year (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,822/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,822/4,834
 
-            tabulation:  Freq.  Value
-                         1,382  0
-                         1,630  1
-                         1,822  .
+            Tabulation: Freq.  Value
+                        1,382  0
+                        1,630  1
+                        1,822  .
 
 ------------------------------------------------------------------------------------------------------------------------
 presenteeism_0717                                                 SPS-6 (Stanford Presenteeism Scale, range 6-30) (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [6,30]                       units:  1
-         unique values:  25                       missing .:  1,267/4,834
+                 Range: [6,30]                        Units: 1
+         Unique values: 25                        Missing .: 1,267/4,834
 
-                  mean:   23.8996
-              std. dev:   7.28088
+                  Mean: 23.8996
+             Std. dev.: 7.28088
 
-           percentiles:        10%       25%       50%       75%       90%
-                                13        17        30        30        30
+           Percentiles:     10%       25%       50%       75%       90%
+                             13        17        30        30        30
 
 ------------------------------------------------------------------------------------------------------------------------
 presenteeism_0718                                                 SPS-6 (Stanford Presenteeism Scale, range 6-30) (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [6,30]                       units:  1
-         unique values:  25                       missing .:  1,814/4,834
+                 Range: [6,30]                        Units: 1
+         Unique values: 25                        Missing .: 1,814/4,834
 
-                  mean:   23.8987
-              std. dev:    7.2721
+                  Mean: 23.8987
+             Std. dev.:  7.2721
 
-           percentiles:        10%       25%       50%       75%       90%
-                                13        17        30        30        30
+           Percentiles:     10%       25%       50%       75%       90%
+                             13        17        30        30        30
 
 ------------------------------------------------------------------------------------------------------------------------
 productive_0717                                                                      Feel very productive at work (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,267/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,267/4,834
 
-            tabulation:  Freq.  Value
-                         1,966  0
-                         1,601  1
-                         1,267  .
+            Tabulation: Freq.  Value
+                        1,966  0
+                        1,601  1
+                        1,267  .
 
 ------------------------------------------------------------------------------------------------------------------------
 productive_0718                                                                      Feel very productive at work (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,817/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,817/4,834
 
-            tabulation:  Freq.  Value
-                         1,700  0
-                         1,317  1
-                         1,817  .
+            Tabulation: Freq.  Value
+                        1,700  0
+                        1,317  1
+                        1,817  .
 
 ------------------------------------------------------------------------------------------------------------------------
 promotion_0717                                                          Received promotion or more responsibility (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,272/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,272/4,834
 
-            tabulation:  Freq.  Value
-                         1,879  0
-                         1,683  1
-                         1,272  .
+            Tabulation: Freq.  Value
+                        1,879  0
+                        1,683  1
+                        1,272  .
 
 ------------------------------------------------------------------------------------------------------------------------
 promotion_0718                                                          Received promotion or more responsibility (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,817/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,817/4,834
 
-            tabulation:  Freq.  Value
-                         1,548  0
-                         1,469  1
-                         1,817  .
+            Tabulation: Freq.  Value
+                        1,548  0
+                        1,469  1
+                        1,817  .
 
 ------------------------------------------------------------------------------------------------------------------------
 jobsearch1_0717                                                                 Very likely to search for new job (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,273/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,273/4,834
 
-            tabulation:  Freq.  Value
-                         3,065  0
-                           496  1
-                         1,273  .
+            Tabulation: Freq.  Value
+                        3,065  0
+                          496  1
+                        1,273  .
 
 ------------------------------------------------------------------------------------------------------------------------
 jobsearch1_0718                                                                 Very likely to search for new job (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,818/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,818/4,834
 
-            tabulation:  Freq.  Value
-                         2,657  0
-                           359  1
-                         1,818  .
+            Tabulation: Freq.  Value
+                        2,657  0
+                          359  1
+                        1,818  .
 
 ------------------------------------------------------------------------------------------------------------------------
 jobsearch2_0717                                                     Very or somewhat likely to search for new job (2017)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,273/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,273/4,834
 
-            tabulation:  Freq.  Value
-                         2,360  0
-                         1,201  1
-                         1,273  .
+            Tabulation: Freq.  Value
+                        2,360  0
+                        1,201  1
+                        1,273  .
 
 ------------------------------------------------------------------------------------------------------------------------
 jobsearch2_0718                                                     Very or somewhat likely to search for new job (2018)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,818/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,818/4,834
 
-            tabulation:  Freq.  Value
-                         2,122  0
-                           894  1
-                         1,818  .
+            Tabulation: Freq.  Value
+                        2,122  0
+                          894  1
+                        1,818  .

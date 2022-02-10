@@ -6,24 +6,58 @@ male
 age50
 age37_49
 white
-spend_0715_0716
-spend_0816_0717
-spend_0816_0119
-spendOff_0715_0716
-spendOff_0816_0717
-spendOff_0816_0119
-spendHosp_0715_0716
-spendHosp_0816_0717
-spendHosp_0816_0119
-spendRx_0715_0716
-spendRx_0816_0717
-spendRx_0816_0119
-nonzero_spend_0715_0716
-nonzero_spend_0816_0717
-nonzero_spend_0816_0119
+Strata_claims
+completed_screening_nomiss_2016
 covg_0715_0716
-covg_0816_0717
 covg_0816_0119
+covg_0816_0717
+covg_0816_0718
+covg_1015_0716
+diabetes_0816_0717
+diabetes_0816_0718
+diabetes_1015_0716
+hyperlipidemia_0816_0717
+hyperlipidemia_0816_0718
+hyperlipidemia_1015_0716
+hypertension_0816_0717
+hypertension_0816_0718
+hypertension_1015_0716
+nonzero_spend_0715_0716
+nonzero_spend_0816_0119
+nonzero_spend_0816_0717
+pcp_any_office_0816_0717
+pcp_any_office_0816_0718
+pcp_any_office_1015_0716
+pcp_any_visits_0816_0717
+pcp_any_visits_0816_0718
+pcp_any_visits_1015_0716
+pcp_total_office_0816_0717
+pcp_total_office_0816_0718
+pcp_total_office_1015_0716
+pcp_total_visits_0816_0717
+pcp_total_visits_0816_0718
+pcp_total_visits_1015_0716
+pos_er_critical_0816_0717
+pos_er_critical_0816_0718
+pos_er_critical_1015_0716
+pos_hospital_0816_0717
+pos_hospital_0816_0718
+pos_hospital_1015_0716
+pos_office_outpatient_0816_0717
+pos_office_outpatient_0816_0718
+pos_office_outpatient_1015_0716
+spendHosp_0715_0716
+spendHosp_0816_0119
+spendHosp_0816_0717
+spendOff_0715_0716
+spendOff_0816_0119
+spendOff_0816_0717
+spendRx_0715_0716
+spendRx_0816_0119
+spendRx_0816_0717
+spend_0715_0716
+spend_0816_0119
+spend_0816_0717
 ------------------------------------------------------------------------------------------------------------------------
 
 
@@ -39,24 +73,58 @@ male          4834      2  .4269756    0         1  Male indicator (strata var)
 age50         4834      2  .3256103    0         1  Ages 50 and over (strata var)
 age37_49      4834      2  .3349193    0         1  Ages 37-49 (strata var)
 white         4834      2  .8374017    0         1  HR race is white (strata var)
-spend_0~0716  3223   2845  477.9044    0  19941.53  Avg monthly spending, 7/15 - 7/16
-spend_0~0717  3239   2895  573.5753    0  34032.78  Avg monthly spending, 8/16 - 7/17
-spend_0~0119  3307   3140  645.4721    0  29495.15  Avg monthly spending, 8/16 - 1/19
-spendOf~0716  3223   1287  60.78087    0  10246.65  Avg monthly spending (office care), 7/15 - 7/16
-spendOf~0717  3239   1282  69.49495    0  6965.423  Avg monthly spending (office care), 8/16 - 7/17
-spendOf~0119  3307   1757  74.99555    0  6965.423  Avg monthly spending (office care), 8/16 - 1/19
-spendHo~0716  3223   2189  267.0478    0  16777.75  Avg monthly spending (hospital care), 7/15 - 7/16
-spendHo~0717  3239   2244  312.1389    0  33066.05  Avg monthly spending (hospital care), 8/16 - 7/17
-spendHo~0119  3307   2729  350.7722    0  28121.42  Avg monthly spending (hospital care), 8/16 - 1/19
-spendRx~0716  3223   2481  101.9428    0  10790.06  Avg monthly spending (Rx), 7/15 - 7/16
-spendRx~0717  3239   2472  130.4708    0  11955.04  Avg monthly spending (Rx), 8/16 - 7/17
-spendRx~0119  3307   2885  145.3507    0  11857.46  Avg monthly spending (Rx), 8/16 - 1/19
-nonzero~0716  3223      2  .8895439    0         1  Non-zero spending, 7/15 - 7/16
-nonzero~0717  3239      2  .9015128    0         1  Non-zero spending, 8/16 - 7/17
-nonzero~0119  3307      2  .9504082    0         1  Non-zero spending, 8/16 - 1/19
+Strata_cla~s  4834     69  32.22259    1        69  Strata ID used for random treatment assignment
+complet~2016  4834      2  .3930492    0         1  Completed 2016 biometric screening (missing coded as 0)
 covg_07~0716  4834     14  .6326501    0         1  Fraction months w/ health coverage, 7/15 - 7/16
-covg_08~0717  4834     13  .6367915    0         1  Fraction months w/ health coverage, 8/16 - 7/17
 covg_08~0119  4834     31  .6140119    0         1  Fraction months w/ health coverage, 8/16 - 1/19
+covg_08~0717  4834     13  .6367915    0         1  Fraction months w/ health coverage, 8/16 - 7/17
+covg_08~0718  4834     25   .621104    0         1  Fraction months w/ health coverage, 8/16 - 7/18
+covg_10~0716  4834     11  .6378155    0         1  Fraction months w/ health coverage, 10/15 - 7/16
+diabete~0717  3239      2  5.804261    0       100  Had diabetes diagnosis, 8/16 - 7/17
+diabete~0718  3300      2  6.424242    0       100  Had diabetes diagnosis, 8/16 - 7/18
+diabete~0716  3217      2  5.346596    0       100  Had diabetes diagnosis, 10/15 - 7/16
+hyperli~0717  3239      2   18.2155    0       100  Had hyperlipidemia diagnosis, 8/16 - 7/17
+hyperli~0718  3300      2  24.36364    0       100  Had hyperlipidemia diagnosis, 8/16 - 7/18
+hyperli~0716  3217      2  15.79111    0       100  Had hyperlipidemia diagnosis, 10/15 - 7/16
+hyperte~0717  3239      2  15.52948    0       100  Had hypertension diagnosis, 8/16 - 7/17
+hyperte~0718  3300      2  19.30303    0       100  Had hypertension diagnosis, 8/16 - 7/18
+hyperte~0716  3217      2  13.67734    0       100  Had hypertension diagnosis, 10/15 - 7/16
+nonzero~0716  3223      2  .8895439    0         1  Non-zero spending, 7/15 - 7/16
+nonzero~0119  3307      2  .9504082    0         1  Non-zero spending, 8/16 - 1/19
+nonzero~0717  3239      2  .9015128    0         1  Non-zero spending, 8/16 - 7/17
+pcp_any_of~7  3239      2  11.36153    0       100  Any office claims with PCP, 8/16 - 7/17
+pcp_any_of~8  3300      2  14.54545    0       100  Any office claims with PCP, 8/16 - 7/18
+pcp_any_of~6  3217      2  10.41343    0       100  Any office claims with PCP, 10/15 - 7/16
+pcp_any_vi~7  3239      2  36.27663    0       100  Any claims with PCP, 8/16 - 7/17
+pcp_any_vi~8  3300      2  49.93939    0       100  Any claims with PCP, 8/16 - 7/18
+pcp_any_vi~6  3217      2  32.01741    0       100  Any claims with PCP, 10/15 - 7/16
+pcp_total_..  3239     23  .5069466    0        27  Total office claims with PCP, 8/16 - 7/17
+pcp_total_..  3300     36  1.017879    0        48  Total office claims with PCP, 8/16 - 7/18
+pcp_total_..  3217     19   .416848    0        26  Total office claims with PCP, 10/15 - 7/16
+pcp_total_..  3239     24  .9867243    0        31  Total claims with PCP, 8/16 - 7/17
+pcp_total_..  3300     36  1.977273    0        48  Total claims with PCP, 8/16 - 7/18
+pcp_total_..  3217     19  .8019894    0        26  Total claims with PCP, 10/15 - 7/16
+pos_er_~0717  3239      8  .1309046    0         7  Emergency department and critical care services (#days w/ >=1 cla...
+pos_er_~0718  3300     12  .2493939    0        25  Emergency department and critical care services (#days w/ >=1 cla...
+pos_er_~0716  3217      9  .1019583    0        15  Emergency department and critical care services (#days w/ >=1 cla...
+pos_hos~0717  3239     13   .084594    0        14  Hospital inpatient and observation services (#days w/ >=1 claim),...
+pos_hos~0718  3300     18  .1957576    0        73  Hospital inpatient and observation services (#days w/ >=1 claim),...
+pos_hos~0716  3217      9  .0509792    0        48  Hospital inpatient and observation services (#days w/ >=1 claim),...
+pos_off~0717  3239     26  3.109602    0        37  Office, outpatient, and preventive services (#days w/ >=1 claim),...
+pos_off~0718  3300     44  6.094242    0        76  Office, outpatient, and preventive services (#days w/ >=1 claim),...
+pos_off~0716  3217     22  2.428971    0        22  Office, outpatient, and preventive services (#days w/ >=1 claim),...
+spendHo~0716  3223   2189  267.0478    0  16777.75  Avg monthly spending (hospital care), 7/15 - 7/16
+spendHo~0119  3307   2729  350.7722    0  28121.42  Avg monthly spending (hospital care), 8/16 - 1/19
+spendHo~0717  3239   2244  312.1389    0  33066.05  Avg monthly spending (hospital care), 8/16 - 7/17
+spendOf~0716  3223   1287  60.78087    0  10246.65  Avg monthly spending (office care), 7/15 - 7/16
+spendOf~0119  3307   1757  74.99555    0  6965.423  Avg monthly spending (office care), 8/16 - 1/19
+spendOf~0717  3239   1282  69.49495    0  6965.423  Avg monthly spending (office care), 8/16 - 7/17
+spendRx~0716  3223   2481  101.9428    0  10790.06  Avg monthly spending (Rx), 7/15 - 7/16
+spendRx~0119  3307   2885  145.3507    0  11857.46  Avg monthly spending (Rx), 8/16 - 1/19
+spendRx~0717  3239   2472  130.4708    0  11955.04  Avg monthly spending (Rx), 8/16 - 7/17
+spend_0~0716  3223   2845  477.9044    0  19941.53  Avg monthly spending, 7/15 - 7/16
+spend_0~0119  3307   3140  645.4721    0  29495.15  Avg monthly spending, 8/16 - 1/19
+spend_0~0717  3239   2895  573.5753    0  34032.78  Avg monthly spending, 8/16 - 7/17
 ------------------------------------------------------------------------------------------------------------------------
 
 
@@ -68,344 +136,854 @@ CODEBOOK
 treat                                                                                                 0=control, 1=treat
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         1,534  0
-                         3,300  1
+            Tabulation: Freq.  Value
+                        1,534  0
+                        3,300  1
 
 ------------------------------------------------------------------------------------------------------------------------
 hra_c_yr1                                                                                  Completed 2016 Wellsource HRA
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,534/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,534/4,834
 
-            tabulation:  Freq.  Value
-                         1,452  0
-                         1,848  1
-                         1,534  .
+            Tabulation: Freq.  Value
+                        1,452  0
+                        1,848  1
+                        1,534  .
 
 ------------------------------------------------------------------------------------------------------------------------
 male                                                                                         Male indicator (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         2,770  0
-                         2,064  1
+            Tabulation: Freq.  Value
+                        2,770  0
+                        2,064  1
 
 ------------------------------------------------------------------------------------------------------------------------
 age50                                                                                      Ages 50 and over (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,260  0
-                         1,574  1
+            Tabulation: Freq.  Value
+                        3,260  0
+                        1,574  1
 
 ------------------------------------------------------------------------------------------------------------------------
 age37_49                                                                                         Ages 37-49 (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,215  0
-                         1,619  1
+            Tabulation: Freq.  Value
+                        3,215  0
+                        1,619  1
 
 ------------------------------------------------------------------------------------------------------------------------
 white                                                                                      HR race is white (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                           786  0
-                         4,048  1
-
-------------------------------------------------------------------------------------------------------------------------
-spend_0715_0716                                                                        Avg monthly spending, 7/15 - 7/16
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (float)
-
-                 range:  [0,19941.533]                units:  1.000e-10
-         unique values:  2,845                    missing .:  1,611/4,834
-
-                  mean:   477.904
-              std. dev:   1056.27
-
-           percentiles:        10%       25%       50%       75%       90%
-                                 0   40.2077   160.366   474.277   1124.28
+            Tabulation: Freq.  Value
+                          786  0
+                        4,048  1
 
 ------------------------------------------------------------------------------------------------------------------------
-spend_0816_0717                                                                        Avg monthly spending, 8/16 - 7/17
+Strata_claims                                                             Strata ID used for random treatment assignment
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (float)
+                  Type: Numeric (byte)
 
-                 range:  [0,34032.781]                units:  1.000e-08
-         unique values:  2,895                    missing .:  1,595/4,834
+                 Range: [1,69]                        Units: 1
+         Unique values: 69                        Missing .: 0/4,834
 
-                  mean:   573.575
-              std. dev:   1438.23
+                  Mean: 32.2226
+             Std. dev.: 21.3719
 
-           percentiles:        10%       25%       50%       75%       90%
-                           .318182    54.374   191.982   539.643   1277.41
-
-------------------------------------------------------------------------------------------------------------------------
-spend_0816_0119                                                                        Avg monthly spending, 8/16 - 1/19
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (float)
-
-                 range:  [0,29495.15]                 units:  1.000e-08
-         unique values:  3,140                    missing .:  1,527/4,834
-
-                  mean:   645.472
-              std. dev:   1461.73
-
-           percentiles:        10%       25%       50%       75%       90%
-                           19.3647   85.4362   257.381   619.861   1415.77
+           Percentiles:     10%       25%       50%       75%       90%
+                              7        13        26        51        65
 
 ------------------------------------------------------------------------------------------------------------------------
-spendOff_0715_0716                                                       Avg monthly spending (office care), 7/15 - 7/16
+completed_screening_nomiss_2016                                  Completed 2016 biometric screening (missing coded as 0)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (float)
+                  Type: Numeric (byte)
 
-                 range:  [0,10246.648]                units:  1.000e-08
-         unique values:  1,287                    missing .:  1,611/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-                  mean:   60.7809
-              std. dev:    262.12
-
-           percentiles:        10%       25%       50%       75%       90%
-                                 0         0         0   44.2154   174.199
-
-------------------------------------------------------------------------------------------------------------------------
-spendOff_0816_0717                                                       Avg monthly spending (office care), 8/16 - 7/17
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (float)
-
-                 range:  [0,6965.4229]                units:  1.000e-08
-         unique values:  1,282                    missing .:  1,595/4,834
-
-                  mean:   69.4949
-              std. dev:    234.13
-
-           percentiles:        10%       25%       50%       75%       90%
-                                 0         0         0   54.1233   209.249
-
-------------------------------------------------------------------------------------------------------------------------
-spendOff_0816_0119                                                       Avg monthly spending (office care), 8/16 - 1/19
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (float)
-
-                 range:  [0,6965.4229]                units:  1.000e-09
-         unique values:  1,757                    missing .:  1,527/4,834
-
-                  mean:   74.9956
-              std. dev:   223.947
-
-           percentiles:        10%       25%       50%       75%       90%
-                                 0         0     5.724   76.4707   216.806
-
-------------------------------------------------------------------------------------------------------------------------
-spendHosp_0715_0716                                                    Avg monthly spending (hospital care), 7/15 - 7/16
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (float)
-
-                 range:  [0,16777.752]                units:  1.000e-07
-         unique values:  2,189                    missing .:  1,611/4,834
-
-                  mean:   267.048
-              std. dev:   735.828
-
-           percentiles:        10%       25%       50%       75%       90%
-                                 0         0   65.6723   268.008   637.511
-
-------------------------------------------------------------------------------------------------------------------------
-spendHosp_0816_0717                                                    Avg monthly spending (hospital care), 8/16 - 7/17
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (float)
-
-                 range:  [0,33066.051]                units:  1.000e-07
-         unique values:  2,244                    missing .:  1,595/4,834
-
-                  mean:   312.139
-              std. dev:   1067.14
-
-           percentiles:        10%       25%       50%       75%       90%
-                                 0         0   84.8227   311.122   675.838
-
-------------------------------------------------------------------------------------------------------------------------
-spendHosp_0816_0119                                                    Avg monthly spending (hospital care), 8/16 - 1/19
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (float)
-
-                 range:  [0,28121.422]                units:  1.000e-07
-         unique values:  2,729                    missing .:  1,527/4,834
-
-                  mean:   350.772
-              std. dev:   992.985
-
-           percentiles:        10%       25%       50%       75%       90%
-                                 0   23.9297    133.42   344.153   709.911
-
-------------------------------------------------------------------------------------------------------------------------
-spendRx_0715_0716                                                                 Avg monthly spending (Rx), 7/15 - 7/16
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (float)
-
-                 range:  [0,10790.056]                units:  1.000e-11
-         unique values:  2,481                    missing .:  1,611/4,834
-
-                  mean:   101.943
-              std. dev:   485.039
-
-           percentiles:        10%       25%       50%       75%       90%
-                                 0   .463077   8.01385   43.3931   163.028
-
-------------------------------------------------------------------------------------------------------------------------
-spendRx_0816_0717                                                                 Avg monthly spending (Rx), 8/16 - 7/17
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (float)
-
-                 range:  [0,11955.035]                units:  1.000e-10
-         unique values:  2,472                    missing .:  1,595/4,834
-
-                  mean:   130.471
-              std. dev:   652.865
-
-           percentiles:        10%       25%       50%       75%       90%
-                                 0   .481667   8.99417     48.17    190.68
-
-------------------------------------------------------------------------------------------------------------------------
-spendRx_0816_0119                                                                 Avg monthly spending (Rx), 8/16 - 1/19
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (float)
-
-                 range:  [0,11857.458]                units:  1.000e-11
-         unique values:  2,885                    missing .:  1,527/4,834
-
-                  mean:   145.351
-              std. dev:   658.192
-
-           percentiles:        10%       25%       50%       75%       90%
-                                 0   1.58167   11.8243   55.8497   217.178
-
-------------------------------------------------------------------------------------------------------------------------
-nonzero_spend_0715_0716                                                                   Non-zero spending, 7/15 - 7/16
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (byte)
-
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,611/4,834
-
-            tabulation:  Freq.  Value
-                           356  0
-                         2,867  1
-                         1,611  .
-
-------------------------------------------------------------------------------------------------------------------------
-nonzero_spend_0816_0717                                                                   Non-zero spending, 8/16 - 7/17
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (byte)
-
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,595/4,834
-
-            tabulation:  Freq.  Value
-                           319  0
-                         2,920  1
-                         1,595  .
-
-------------------------------------------------------------------------------------------------------------------------
-nonzero_spend_0816_0119                                                                   Non-zero spending, 8/16 - 1/19
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (byte)
-
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,527/4,834
-
-            tabulation:  Freq.  Value
-                           164  0
-                         3,143  1
-                         1,527  .
+            Tabulation: Freq.  Value
+                        2,934  0
+                        1,900  1
 
 ------------------------------------------------------------------------------------------------------------------------
 covg_0715_0716                                                           Fraction months w/ health coverage, 7/15 - 7/16
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (float)
+                  Type: Numeric (float)
 
-                 range:  [0,1]                        units:  1.000e-08
-         unique values:  14                       missing .:  0/4,834
+                 Range: [0,1]                         Units: 1.000e-08
+         Unique values: 14                        Missing .: 0/4,834
 
-                  mean:    .63265
-              std. dev:    .47184
+                  Mean: .63265
+             Std. dev.: .47184
 
-           percentiles:        10%       25%       50%       75%       90%
-                                 0         0         1         1         1
-
-------------------------------------------------------------------------------------------------------------------------
-covg_0816_0717                                                           Fraction months w/ health coverage, 8/16 - 7/17
-------------------------------------------------------------------------------------------------------------------------
-
-                  type:  numeric (float)
-
-                 range:  [0,1]                        units:  1.000e-09
-         unique values:  13                       missing .:  0/4,834
-
-                  mean:   .636791
-              std. dev:   .472126
-
-           percentiles:        10%       25%       50%       75%       90%
-                                 0         0         1         1         1
+           Percentiles:    10%       25%       50%       75%       90%
+                             0         0         1         1         1
 
 ------------------------------------------------------------------------------------------------------------------------
 covg_0816_0119                                                           Fraction months w/ health coverage, 8/16 - 1/19
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (float)
+                  Type: Numeric (float)
 
-                 range:  [0,1]                        units:  1.000e-09
-         unique values:  31                       missing .:  0/4,834
+                 Range: [0,1]                         Units: 1.000e-09
+         Unique values: 31                        Missing .: 0/4,834
 
-                  mean:   .614012
-              std. dev:   .461569
+                  Mean: .614012
+             Std. dev.: .461569
 
-           percentiles:        10%       25%       50%       75%       90%
-                                 0         0         1         1         1
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         1         1         1
+
+------------------------------------------------------------------------------------------------------------------------
+covg_0816_0717                                                           Fraction months w/ health coverage, 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,1]                         Units: 1.000e-09
+         Unique values: 13                        Missing .: 0/4,834
+
+                  Mean: .636791
+             Std. dev.: .472126
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         1         1         1
+
+------------------------------------------------------------------------------------------------------------------------
+covg_0816_0718                                                           Fraction months w/ health coverage, 8/16 - 7/18
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,1]                         Units: 1.000e-09
+         Unique values: 25                        Missing .: 0/4,834
+
+                  Mean: .621104
+             Std. dev.: .464979
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         1         1         1
+
+------------------------------------------------------------------------------------------------------------------------
+covg_1015_0716                                                          Fraction months w/ health coverage, 10/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,1]                         Units: .1
+         Unique values: 11                        Missing .: 0/4,834
+
+                  Mean: .637815
+             Std. dev.:  .47273
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         1         1         1
+
+------------------------------------------------------------------------------------------------------------------------
+diabetes_0816_0717                                                                   Had diabetes diagnosis, 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,595/4,834
+
+            Tabulation: Freq.  Value
+                        3,051  0
+                          188  100
+                        1,595  .
+
+------------------------------------------------------------------------------------------------------------------------
+diabetes_0816_0718                                                                   Had diabetes diagnosis, 8/16 - 7/18
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,534/4,834
+
+            Tabulation: Freq.  Value
+                        3,088  0
+                          212  100
+                        1,534  .
+
+------------------------------------------------------------------------------------------------------------------------
+diabetes_1015_0716                                                                  Had diabetes diagnosis, 10/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,617/4,834
+
+            Tabulation: Freq.  Value
+                        3,045  0
+                          172  100
+                        1,617  .
+
+------------------------------------------------------------------------------------------------------------------------
+hyperlipidemia_0816_0717                                                       Had hyperlipidemia diagnosis, 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,595/4,834
+
+            Tabulation: Freq.  Value
+                        2,649  0
+                          590  100
+                        1,595  .
+
+------------------------------------------------------------------------------------------------------------------------
+hyperlipidemia_0816_0718                                                       Had hyperlipidemia diagnosis, 8/16 - 7/18
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,534/4,834
+
+            Tabulation: Freq.  Value
+                        2,496  0
+                          804  100
+                        1,534  .
+
+------------------------------------------------------------------------------------------------------------------------
+hyperlipidemia_1015_0716                                                      Had hyperlipidemia diagnosis, 10/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,617/4,834
+
+            Tabulation: Freq.  Value
+                        2,709  0
+                          508  100
+                        1,617  .
+
+------------------------------------------------------------------------------------------------------------------------
+hypertension_0816_0717                                                           Had hypertension diagnosis, 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,595/4,834
+
+            Tabulation: Freq.  Value
+                        2,736  0
+                          503  100
+                        1,595  .
+
+------------------------------------------------------------------------------------------------------------------------
+hypertension_0816_0718                                                           Had hypertension diagnosis, 8/16 - 7/18
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,534/4,834
+
+            Tabulation: Freq.  Value
+                        2,663  0
+                          637  100
+                        1,534  .
+
+------------------------------------------------------------------------------------------------------------------------
+hypertension_1015_0716                                                          Had hypertension diagnosis, 10/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,617/4,834
+
+            Tabulation: Freq.  Value
+                        2,777  0
+                          440  100
+                        1,617  .
+
+------------------------------------------------------------------------------------------------------------------------
+nonzero_spend_0715_0716                                                                   Non-zero spending, 7/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,611/4,834
+
+            Tabulation: Freq.  Value
+                          356  0
+                        2,867  1
+                        1,611  .
+
+------------------------------------------------------------------------------------------------------------------------
+nonzero_spend_0816_0119                                                                   Non-zero spending, 8/16 - 1/19
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,527/4,834
+
+            Tabulation: Freq.  Value
+                          164  0
+                        3,143  1
+                        1,527  .
+
+------------------------------------------------------------------------------------------------------------------------
+nonzero_spend_0816_0717                                                                   Non-zero spending, 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,595/4,834
+
+            Tabulation: Freq.  Value
+                          319  0
+                        2,920  1
+                        1,595  .
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_any_office_0816_0717                                                         Any office claims with PCP, 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,595/4,834
+
+            Tabulation: Freq.  Value
+                        2,871  0
+                          368  100
+                        1,595  .
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_any_office_0816_0718                                                         Any office claims with PCP, 8/16 - 7/18
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,534/4,834
+
+            Tabulation: Freq.  Value
+                        2,820  0
+                          480  100
+                        1,534  .
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_any_office_1015_0716                                                        Any office claims with PCP, 10/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,617/4,834
+
+            Tabulation: Freq.  Value
+                        2,882  0
+                          335  100
+                        1,617  .
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_any_visits_0816_0717                                                                Any claims with PCP, 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,595/4,834
+
+            Tabulation: Freq.  Value
+                        2,064  0
+                        1,175  100
+                        1,595  .
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_any_visits_0816_0718                                                                Any claims with PCP, 8/16 - 7/18
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,534/4,834
+
+            Tabulation: Freq.  Value
+                        1,652  0
+                        1,648  100
+                        1,534  .
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_any_visits_1015_0716                                                               Any claims with PCP, 10/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,100]                       Units: 100
+         Unique values: 2                         Missing .: 1,617/4,834
+
+            Tabulation: Freq.  Value
+                        2,187  0
+                        1,030  100
+                        1,617  .
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_total_office_0816_0717                                                     Total office claims with PCP, 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,27]                        Units: 1
+         Unique values: 23                        Missing .: 1,595/4,834
+
+                  Mean: .506947
+             Std. dev.: 2.00906
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0         0         1
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_total_office_0816_0718                                                     Total office claims with PCP, 8/16 - 7/18
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,48]                        Units: 1
+         Unique values: 36                        Missing .: 1,534/4,834
+
+                  Mean: 1.01788
+             Std. dev.: 3.73906
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0         0         3
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_total_office_1015_0716                                                    Total office claims with PCP, 10/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,26]                        Units: 1
+         Unique values: 19                        Missing .: 1,617/4,834
+
+                  Mean: .416848
+             Std. dev.: 1.72107
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0         0         1
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_total_visits_0816_0717                                                            Total claims with PCP, 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,31]                        Units: 1
+         Unique values: 24                        Missing .: 1,595/4,834
+
+                  Mean: .986724
+             Std. dev.: 2.22835
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0         1         3
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_total_visits_0816_0718                                                            Total claims with PCP, 8/16 - 7/18
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,48]                        Units: 1
+         Unique values: 36                        Missing .: 1,534/4,834
+
+                  Mean: 1.97727
+             Std. dev.: 4.01797
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0         2         5
+
+------------------------------------------------------------------------------------------------------------------------
+pcp_total_visits_1015_0716                                                           Total claims with PCP, 10/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,26]                        Units: 1
+         Unique values: 19                        Missing .: 1,617/4,834
+
+                  Mean: .801989
+             Std. dev.: 1.90516
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0         1         2
+
+------------------------------------------------------------------------------------------------------------------------
+pos_er_critical_0816_0717               Emergency department and critical care services (#days w/ >=1 claim), 8/16 - 7/1
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,7]                         Units: 1
+         Unique values: 8                         Missing .: 1,595/4,834
+
+            Tabulation: Freq.  Value
+                        2,920  0
+                          257  1
+                           41  2
+                           10  3
+                            5  4
+                            3  5
+                            1  6
+                            2  7
+                        1,595  .
+
+------------------------------------------------------------------------------------------------------------------------
+pos_er_critical_0816_0718               Emergency department and critical care services (#days w/ >=1 claim), 8/16 - 7/1
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,25]                        Units: 1
+         Unique values: 12                        Missing .: 1,534/4,834
+
+                  Mean: .249394
+             Std. dev.: .873605
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0         0         1
+
+------------------------------------------------------------------------------------------------------------------------
+pos_er_critical_1015_0716               Emergency department and critical care services (#days w/ >=1 claim), 10/15 - 7/
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,15]                        Units: 1
+         Unique values: 9                         Missing .: 1,617/4,834
+
+            Tabulation: Freq.  Value
+                        2,977  0
+                          194  1
+                           30  2
+                            9  3
+                            3  4
+                            1  5
+                            1  6
+                            1  9
+                            1  15
+                        1,617  .
+
+------------------------------------------------------------------------------------------------------------------------
+pos_hospital_0816_0717                     Hospital inpatient and observation services (#days w/ >=1 claim), 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,14]                        Units: 1
+         Unique values: 13                        Missing .: 1,595/4,834
+
+                  Mean: .084594
+             Std. dev.: .647803
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0         0         0
+
+------------------------------------------------------------------------------------------------------------------------
+pos_hospital_0816_0718                     Hospital inpatient and observation services (#days w/ >=1 claim), 8/16 - 7/18
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,73]                        Units: 1
+         Unique values: 18                        Missing .: 1,534/4,834
+
+                  Mean: .195758
+             Std. dev.: 1.78993
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0         0         0
+
+------------------------------------------------------------------------------------------------------------------------
+pos_hospital_1015_0716                    Hospital inpatient and observation services (#days w/ >=1 claim), 10/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,48]                        Units: 1
+         Unique values: 9                         Missing .: 1,617/4,834
+
+            Tabulation: Freq.  Value
+                        3,164  0
+                           23  1
+                           14  2
+                            5  3
+                            5  4
+                            3  5
+                            1  7
+                            1  8
+                            1  48
+                        1,617  .
+
+------------------------------------------------------------------------------------------------------------------------
+pos_office_outpatient_0816_0717            Office, outpatient, and preventive services (#days w/ >=1 claim), 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,37]                        Units: 1
+         Unique values: 26                        Missing .: 1,595/4,834
+
+                  Mean:  3.1096
+             Std. dev.: 3.30749
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         1         2         4         7
+
+------------------------------------------------------------------------------------------------------------------------
+pos_office_outpatient_0816_0718            Office, outpatient, and preventive services (#days w/ >=1 claim), 8/16 - 7/18
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,76]                        Units: 1
+         Unique values: 44                        Missing .: 1,534/4,834
+
+                  Mean: 6.09424
+             Std. dev.: 6.20953
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         2         4         9      13.5
+
+------------------------------------------------------------------------------------------------------------------------
+pos_office_outpatient_1015_0716           Office, outpatient, and preventive services (#days w/ >=1 claim), 10/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,22]                        Units: 1
+         Unique values: 22                        Missing .: 1,617/4,834
+
+                  Mean: 2.42897
+             Std. dev.: 2.66484
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         2         4         6
+
+------------------------------------------------------------------------------------------------------------------------
+spendHosp_0715_0716                                                    Avg monthly spending (hospital care), 7/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,16777.752]                 Units: 1.000e-07
+         Unique values: 2,189                     Missing .: 1,611/4,834
+
+                  Mean: 267.048
+             Std. dev.: 735.828
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0   65.6723   268.008   637.511
+
+------------------------------------------------------------------------------------------------------------------------
+spendHosp_0816_0119                                                    Avg monthly spending (hospital care), 8/16 - 1/19
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,28121.422]                 Units: 1.000e-07
+         Unique values: 2,729                     Missing .: 1,527/4,834
+
+                  Mean: 350.772
+             Std. dev.: 992.985
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0   23.9297    133.42   344.153   709.911
+
+------------------------------------------------------------------------------------------------------------------------
+spendHosp_0816_0717                                                    Avg monthly spending (hospital care), 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,33066.051]                 Units: 1.000e-07
+         Unique values: 2,244                     Missing .: 1,595/4,834
+
+                  Mean: 312.139
+             Std. dev.: 1067.14
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0   84.8227   311.122   675.838
+
+------------------------------------------------------------------------------------------------------------------------
+spendOff_0715_0716                                                       Avg monthly spending (office care), 7/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,10246.648]                 Units: 1.000e-08
+         Unique values: 1,287                     Missing .: 1,611/4,834
+
+                  Mean: 60.7809
+             Std. dev.:  262.12
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0   44.2154   174.199
+
+------------------------------------------------------------------------------------------------------------------------
+spendOff_0816_0119                                                       Avg monthly spending (office care), 8/16 - 1/19
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,6965.4229]                 Units: 1.000e-09
+         Unique values: 1,757                     Missing .: 1,527/4,834
+
+                  Mean: 74.9956
+             Std. dev.: 223.947
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0     5.724   76.4707   216.806
+
+------------------------------------------------------------------------------------------------------------------------
+spendOff_0816_0717                                                       Avg monthly spending (office care), 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,6965.4229]                 Units: 1.000e-08
+         Unique values: 1,282                     Missing .: 1,595/4,834
+
+                  Mean: 69.4949
+             Std. dev.:  234.13
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0   54.1233   209.249
+
+------------------------------------------------------------------------------------------------------------------------
+spendRx_0715_0716                                                                 Avg monthly spending (Rx), 7/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,10790.056]                 Units: 1.000e-11
+         Unique values: 2,481                     Missing .: 1,611/4,834
+
+                  Mean: 101.943
+             Std. dev.: 485.039
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0   .463077   8.01385   43.3931   163.028
+
+------------------------------------------------------------------------------------------------------------------------
+spendRx_0816_0119                                                                 Avg monthly spending (Rx), 8/16 - 1/19
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,11857.458]                 Units: 1.000e-11
+         Unique values: 2,885                     Missing .: 1,527/4,834
+
+                  Mean: 145.351
+             Std. dev.: 658.192
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0   1.58167   11.8243   55.8497   217.178
+
+------------------------------------------------------------------------------------------------------------------------
+spendRx_0816_0717                                                                 Avg monthly spending (Rx), 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,11955.035]                 Units: 1.000e-10
+         Unique values: 2,472                     Missing .: 1,595/4,834
+
+                  Mean: 130.471
+             Std. dev.: 652.865
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0   .481667   8.99417     48.17    190.68
+
+------------------------------------------------------------------------------------------------------------------------
+spend_0715_0716                                                                        Avg monthly spending, 7/15 - 7/16
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,19941.533]                 Units: 1.000e-10
+         Unique values: 2,845                     Missing .: 1,611/4,834
+
+                  Mean: 477.904
+             Std. dev.: 1056.27
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0   40.2077   160.366   474.277   1124.28
+
+------------------------------------------------------------------------------------------------------------------------
+spend_0816_0119                                                                        Avg monthly spending, 8/16 - 1/19
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,29495.15]                  Units: 1.000e-08
+         Unique values: 3,140                     Missing .: 1,527/4,834
+
+                  Mean: 645.472
+             Std. dev.: 1461.73
+
+           Percentiles:     10%       25%       50%       75%       90%
+                        19.3647   85.4362   257.381   619.861   1415.77
+
+------------------------------------------------------------------------------------------------------------------------
+spend_0816_0717                                                                        Avg monthly spending, 8/16 - 7/17
+------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [0,34032.781]                 Units: 1.000e-08
+         Unique values: 2,895                     Missing .: 1,595/4,834
+
+                  Mean: 573.575
+             Std. dev.: 1438.23
+
+           Percentiles:     10%       25%       50%       75%       90%
+                        .318182    54.374   191.982   539.643   1277.41

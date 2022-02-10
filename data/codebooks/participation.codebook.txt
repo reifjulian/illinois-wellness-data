@@ -62,278 +62,278 @@ CODEBOOK
 treat                                                                                                 0=control, 1=treat
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         1,534  0
-                         3,300  1
+            Tabulation: Freq.  Value
+                        1,534  0
+                        3,300  1
 
 ------------------------------------------------------------------------------------------------------------------------
 hra_c_yr1                                                                                  Completed 2016 Wellsource HRA
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,534/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,534/4,834
 
-            tabulation:  Freq.  Value
-                         1,452  0
-                         1,848  1
-                         1,534  .
+            Tabulation: Freq.  Value
+                        1,452  0
+                        1,848  1
+                        1,534  .
 
 ------------------------------------------------------------------------------------------------------------------------
 male                                                                                         Male indicator (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         2,770  0
-                         2,064  1
+            Tabulation: Freq.  Value
+                        2,770  0
+                        2,064  1
 
 ------------------------------------------------------------------------------------------------------------------------
 age50                                                                                      Ages 50 and over (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,260  0
-                         1,574  1
+            Tabulation: Freq.  Value
+                        3,260  0
+                        1,574  1
 
 ------------------------------------------------------------------------------------------------------------------------
 age37_49                                                                                         Ages 37-49 (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,215  0
-                         1,619  1
+            Tabulation: Freq.  Value
+                        3,215  0
+                        1,619  1
 
 ------------------------------------------------------------------------------------------------------------------------
 white                                                                                      HR race is white (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                           786  0
-                         4,048  1
+            Tabulation: Freq.  Value
+                          786  0
+                        4,048  1
 
 ------------------------------------------------------------------------------------------------------------------------
 salaryQ1                                                        Bottom quartile of study participant salary (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,662  0
-                         1,172  1
+            Tabulation: Freq.  Value
+                        3,662  0
+                        1,172  1
 
 ------------------------------------------------------------------------------------------------------------------------
 salaryQ2                                                        Second quartile of study participant salary (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,589  0
-                         1,245  1
+            Tabulation: Freq.  Value
+                        3,589  0
+                        1,245  1
 
 ------------------------------------------------------------------------------------------------------------------------
 salaryQ3                                                         Third quartile of study participant salary (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,626  0
-                         1,208  1
+            Tabulation: Freq.  Value
+                        3,626  0
+                        1,208  1
 
 ------------------------------------------------------------------------------------------------------------------------
 salaryQ4                                                           Top quartile of study participant salary (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,625  0
-                         1,209  1
+            Tabulation: Freq.  Value
+                        3,625  0
+                        1,209  1
 
 ------------------------------------------------------------------------------------------------------------------------
 CS                                                                                            Civil Service (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,084  0
-                         1,750  1
+            Tabulation: Freq.  Value
+                        3,084  0
+                        1,750  1
 
 ------------------------------------------------------------------------------------------------------------------------
 faculty                                                                                             Faculty (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,871  0
-                           963  1
+            Tabulation: Freq.  Value
+                        3,871  0
+                          963  1
 
 ------------------------------------------------------------------------------------------------------------------------
 AP                                                                                    Academic Professional (strata var)
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         2,713  0
-                         2,121  1
+            Tabulation: Freq.  Value
+                        2,713  0
+                        2,121  1
 
 ------------------------------------------------------------------------------------------------------------------------
 screening2016_c                                                                            Completed biometric screening
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,534/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,534/4,834
 
-            tabulation:  Freq.  Value
-                         1,400  0
-                         1,900  1
-                         1,534  .
+            Tabulation: Freq.  Value
+                        1,400  0
+                        1,900  1
+                        1,534  .
 
 ------------------------------------------------------------------------------------------------------------------------
 screening2017_c                                                                       Completed 2017 follow-up screening
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         2,830  0
-                         2,004  1
+            Tabulation: Freq.  Value
+                        2,830  0
+                        2,004  1
 
 ------------------------------------------------------------------------------------------------------------------------
 screening2018_c                                                                       Completed 2018 follow-up screening
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  0/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/4,834
 
-            tabulation:  Freq.  Value
-                         3,073  0
-                         1,761  1
+            Tabulation: Freq.  Value
+                        3,073  0
+                        1,761  1
 
 ------------------------------------------------------------------------------------------------------------------------
 hra_c_yr2                                                                                  Completed 2017 Wellsource HRA
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  15/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 15/4,834
 
-            tabulation:  Freq.  Value
-                         3,547  0
-                         1,272  1
-                            15  .
+            Tabulation: Freq.  Value
+                        3,547  0
+                        1,272  1
+                           15  .
 
 ------------------------------------------------------------------------------------------------------------------------
 activity_f_c_yr1                                                                            Completed Fall 2016 activity
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,534/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,534/4,834
 
-            tabulation:  Freq.  Value
-                         2,397  0
-                           903  1
-                         1,534  .
+            Tabulation: Freq.  Value
+                        2,397  0
+                          903  1
+                        1,534  .
 
 ------------------------------------------------------------------------------------------------------------------------
 activity_s_c_yr1                                                                          Completed Spring 2017 activity
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,534/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,534/4,834
 
-            tabulation:  Freq.  Value
-                         2,560  0
-                           740  1
-                         1,534  .
+            Tabulation: Freq.  Value
+                        2,560  0
+                          740  1
+                        1,534  .
 
 ------------------------------------------------------------------------------------------------------------------------
 activity_f_c_yr2                                                                            Completed Fall 2017 activity
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,534/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,534/4,834
 
-            tabulation:  Freq.  Value
-                         2,861  0
-                           439  1
-                         1,534  .
+            Tabulation: Freq.  Value
+                        2,861  0
+                          439  1
+                        1,534  .
 
 ------------------------------------------------------------------------------------------------------------------------
 activity_s_c_yr2                                                                          Completed Spring 2018 activity
 ------------------------------------------------------------------------------------------------------------------------
 
-                  type:  numeric (byte)
+                  Type: Numeric (byte)
 
-                 range:  [0,1]                        units:  1
-         unique values:  2                        missing .:  1,534/4,834
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 1,534/4,834
 
-            tabulation:  Freq.  Value
-                         2,958  0
-                           342  1
-                         1,534  .
+            Tabulation: Freq.  Value
+                        2,958  0
+                          342  1
+                        1,534  .

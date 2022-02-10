@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\usepackage{pdflscape}
+\usepackage{caption}
+\captionsetup{labelformat=empty}
+\begin{document}
+
+\begin{landscape}
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{eTable 21. Heterogeneity: Civil Service Employees: Interaction Effect of Wellness Program on Health Beliefs and Self-Reported Health Behaviors$^{a}$}
+{\tiny
+\begin{tabularx}{\linewidth}{lCClCClCC}
+
+\toprule
+& \multicolumn{2}{c}{Group mean (SD)} & \multicolumn{3}{c}{Effect of Wellness Program Eligibility (Main Effect)} & \multicolumn{3}{c}{Effect of Wellness Program Eligibility (Interaction Effect)} \tabularnewline \cmidrule(lr){2-3} \cmidrule(lr){4-6} \cmidrule(lr){7-9} \tabularnewline
+\midrule \addlinespace[\belowrulesep]
+Outcome&Treatment&Control&Effect (95\% CI)&P Value&Adjusted P Value$^{b}$&Effect (95\% CI)&P Value&Adjusted P Value$^{b}$ \tabularnewline
+\midrule Medical diagnoses, 2017, \%&&&&&&&& \tabularnewline
+\hspace{1em} Diabetes&5.6  (23.0)&6.8  (25.2)&0.26 (--0.61 to 1.12)&0.56&0.94&N/A$^{d}$ &N/A&N/A \tabularnewline
+\hspace{1em} Hypertension&15.3  (36.0)&18.1  (38.5)&--1.57 (--3.70 to 0.56)&0.15&0.55&N/A &N/A&N/A \tabularnewline
+\hspace{1em} Hyperlipidemia&18.7  (39.0)&19.5  (39.6)&0.40 (--2.13 to 2.93)&0.76&0.97&N/A &N/A&N/A \tabularnewline
+Medical diagnoses, 2018, \%&&&&&&&& \tabularnewline
+\hspace{1em} Diabetes&6.3  (24.3)&7.8  (26.9)&--0.09 (--1.14 to 0.96)&0.86&0.97&N/A &N/A&N/A \tabularnewline
+\hspace{1em} Hypertension&19.6  (39.7)&22.5  (41.8)&--1.55 (--3.87 to 0.77)&0.19&0.60&N/A &N/A&N/A \tabularnewline
+\hspace{1em} Hyperlipidemia&25.5  (43.6)&26.5  (44.2)&0.30 (--2.47 to 3.07)&0.83&0.97&N/A &N/A&N/A \tabularnewline
+Medical utilization, 2017&&&&&&&& \tabularnewline
+\hspace{1em} Office/outpatient (\# days with at least 1 claim)&3.20  (3.28)&3.31  (3.44)&0.05 (--0.16 to 0.26)&0.64&0.96&N/A &N/A&N/A \tabularnewline
+\hspace{1em} Inpatient (\# days with at least 1 claim)&0.09  (0.68)&0.08  (0.59)&0.02 (--0.03 to 0.06)&0.52&0.95&N/A &N/A&N/A \tabularnewline
+\hspace{1em} ER (\# days with at least 1 claim)&0.13  (0.47)&0.15  (0.53)&--0.02 (--0.06 to 0.02)&0.34&0.86&N/A &N/A&N/A \tabularnewline
+Medical utilization, 2018&&&&&&&& \tabularnewline
+\hspace{1em} Office/outpatient (\# days with at least 1 claim)&6.46  (6.16)&6.67  (6.54)&0.08 (--0.30 to 0.46)&0.68&0.96&N/A &N/A&N/A \tabularnewline
+\hspace{1em} Inpatient (\# days with at least 1 claim)&0.20  (1.41)&0.23  (2.59)&--0.03 (--0.19 to 0.14)&0.77&0.96&N/A &N/A&N/A \tabularnewline
+\hspace{1em} ER (\# days with at least 1 claim)&0.26  (0.79)&0.28  (1.13)&--0.02 (--0.10 to 0.05)&0.56&0.95&N/A &N/A&N/A \tabularnewline
+Standardized treatment effect$^{c}$&&&&&&&& \tabularnewline
+\hspace{1em} Medical diagnoses&&&--0.01 (--0.04 to 0.02)&0.59&&N/A && \tabularnewline
+\hspace{1em} Medical utilization&&&--0.00 (--0.05 to 0.04)&0.92&&N/A && \tabularnewline
+\bottomrule \addlinespace[\belowrulesep]
+
+\end{tabularx}
+\begin{flushleft}
+\tiny $^{a}$ This table reports interaction effects for the effect of the wellness program. For reference, the table also includes the group means and effects of program eligibility from Table 4 reported in the main text. All regressions included stratification variables, baseline medical diagnoses, and baseline medical utilization as controls. All regressions and means were weighted by the employee's number of months of insurance coverage in the post-intervention period. The 2017 period is defined as August 2016 to July 2017, and the 2018 period is defined as August 2016 to July 2018. \newline $^{b}$ Adjusted P values account for the number of hypotheses tested in each domain. We tested 6 hypotheses in the medical diagnoses domain and 6 hypotheses in the medical utilization domain.\newline $^{c}$ The standardized treatment effect gives equal weight to each outcome within a domain and includes both the 2017 and 2018 outcomes. \newline $^{d}$ N/A indicates a censored value.
+\end{flushleft}
+}
+\end{table}
+\end{landscape}
+\end{document}

@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[margin=1in]{geometry}
+\usepackage{caption}
+\captionsetup{labelformat=empty}
+\begin{document}
+
+\begin{table}[tbp] \centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\caption{eTable 1. Ex Post Minimum Detectable Effects (MDE)$^{a}$}
+{\scriptsize
+\begin{tabularx}{\linewidth}{lCCC}
+
+\toprule
+Outcome&Mean&Stdev&MDE \tabularnewline
+\midrule Health beliefs&&& \tabularnewline
+\hspace{1em} Height, cm&170.94&10.24&1.01 \tabularnewline
+\hspace{1em} Weight, kg&84.06&21.73&2.77 \tabularnewline
+\hspace{1em} Chance of BMI $>$ 30, \%&46.80&39.46&5.23 \tabularnewline
+\hspace{1em} Chance of high cholesterol, \%&40.15&27.73&3.85 \tabularnewline
+\hspace{1em} Chance of high blood pressure, \%&31.63&27.11&3.64 \tabularnewline
+\hspace{1em} Chance of impaired glucose, \%&30.99&24.00&3.32 \tabularnewline
+Self‐reported health behaviors, \%&&& \tabularnewline
+\hspace{1em} Has primary physician&85.88&34.85&4.43 \tabularnewline
+\hspace{1em} No tobacco use&94.40&23.02&3.16 \tabularnewline
+\hspace{1em} Exercise 1+ times/week&93.38&24.89&3.45 \tabularnewline
+\hspace{1em} Exercise 3+ times/week&53.14&49.94&6.72 \tabularnewline
+\hspace{1em} Exercise for 20 minutes&94.17&23.45&3.30 \tabularnewline
+\hspace{1em} Exercise for 40 minutes&50.09&50.04&6.86 \tabularnewline
+\hspace{1em} Never anxious/depressed&31.58&46.52&6.38 \tabularnewline
+\hspace{1em} Never or sometimes anxious/depressed&87.10&33.55&4.56 \tabularnewline
+Biometric outcomes&&& \tabularnewline
+\hspace{1em} Continuous measures&&& \tabularnewline
+\hspace{2em} Height, cm&170.28&9.40&0.93 \tabularnewline
+\hspace{2em} Weight, kg&84.30&21.99&2.80 \tabularnewline
+\hspace{2em} Waist, cm&95.64&17.07&2.18 \tabularnewline
+\hspace{2em} BMI&29.03&7.08&0.92 \tabularnewline
+\hspace{2em} Blood pressure, mm Hg&&& \tabularnewline
+\hspace{3em} Systolic&124.87&14.94&1.86 \tabularnewline
+\hspace{3em} Diastolic&75.77&8.89&1.16 \tabularnewline
+\hspace{2em} Lipid panel&&& \tabularnewline
+\hspace{3em} Total cholesterol, mg/dL&185.91&38.75&5.32 \tabularnewline
+\hspace{3em} HDL cholesterol, mg/dL&54.84&17.93&2.21 \tabularnewline
+\hspace{3em} Total cholesterol / HDL cholesterol&3.64&1.14&0.15 \tabularnewline
+\hspace{3em} LDL cholesterol, mg/dL&106.57&33.07&4.68 \tabularnewline
+\hspace{3em} Triglycerides, mg/dL&124.53&61.30&8.78 \tabularnewline
+\hspace{2em} Glucose, mg/dL&93.41&20.97&2.83 \tabularnewline
+\hspace{1em} Binary measures, \%&&& \tabularnewline
+\hspace{2em} Obesity (BMI $\geq$30)&33.95&47.39&6.35 \tabularnewline
+\hspace{2em} Hypertension (systolic $\geq$130 or diastolic $\geq$80)&50.42&50.04&6.58 \tabularnewline
+\hspace{2em} High LDL cholesterol ($\geq$100 mg/dL)&57.71&49.44&6.85 \tabularnewline
+\hspace{2em} High glucose ($\geq$100 mg/dL)&22.47&41.77&5.68 \tabularnewline
+Medical diagnoses, \%&&& \tabularnewline
+\hspace{1em} Diabetes&6.60&24.83&1.23 \tabularnewline
+\hspace{1em} Hypertension&17.36&37.90&3.04 \tabularnewline
+\hspace{1em} Hyperlipidemia&18.62&38.95&3.61 \tabularnewline
+Medical utilization&&& \tabularnewline
+\hspace{1em} Office/outpatient (\# days with at least 1 claim)&3.17&3.41&0.29 \tabularnewline
+\hspace{1em} Inpatient (\# days with at least 1 claim)&0.08&0.62&0.07 \tabularnewline
+\hspace{1em} ER (\# days with at least 1 claim)&0.14&0.52&0.05 \tabularnewline
+\bottomrule \addlinespace[\belowrulesep]
+
+\end{tabularx}
+\begin{flushleft}
+\scriptsize $^{a}$ MDE calculated assuming 80\% power, i.e., a probability of 0.8 that effect will be statistically significant at the 95\% level.
+\end{flushleft}
+}
+\end{table}
+\end{document}

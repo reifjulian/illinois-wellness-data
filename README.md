@@ -19,16 +19,17 @@ illinois-wellness-data                # Public-use project folder
 |   └── stata                         #     Datasets (Stata format)
 ├── documentation                     #   Public-use data documentation
 └── replications                      #   Replication folders
+    ├── jamaim_2020                   #     Reif et al. (2020)
     └── qje_2019                      #     Jones, Molitor, and Reif (2019)
 ```
 
-The [documentation](/documentation/README.md) folder describes the datasets. The **replications** folder provides Stata code that uses the public use data to replicate a subset of results for the following publications:
-  - [Jones, Molitor, and Reif (2019)](https://www.nber.org/workplacewellness/s/IL_Wellness_Study_1.pdf): [replication files](replications/qje_2019)
-  - [Reif et al. (2020)](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2765690?guestAccessKey=e5e8e875-c27f-44c4-a5b1-bea7ea27af57): replication files forthcoming
+The [documentation](/documentation/README.md) folder describes the datasets. The [replications](/replications/README.md) folder provides Stata code that uses the public use data to replicate a subset of results for the following publications:
+  - [Jones, Molitor, and Reif (2019)](https://academic.oup.com/qje/article/134/4/1747/5550759)
+  - [Reif et al. (2020)](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2765690?guestAccessKey=e5e8e875-c27f-44c4-a5b1-bea7ea27af57)
 
 ## Examples
 
-1. Estimate the one-year causal effect of the Illinois workplace wellness program on medical spending (see Table 3 of [Jones, Molitor, and Reif 2019](https://www.nber.org/workplacewellness/s/IL_Wellness_Study_1.pdf))
+1. Estimate the one-year causal effect of the Illinois workplace wellness program on medical spending (see Table 3 of [Jones, Molitor, and Reif 2019](https://academic.oup.com/qje/article/134/4/1747/5550759))
 
 ```stata
 * Stata code
@@ -59,6 +60,49 @@ my_data <- read_dta("https://reifjulian.github.io/illinois-wellness-data/data/st
 hist(my_data$spendHosp_0816_0717)
 ```
 
+3. Estimate the one-year causal effect of the Illinois workplace wellness program on beliefs about chances of high cholesterol (see Table 2 of [Reif et al. (2020)](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2765690?guestAccessKey=e5e8e875-c27f-44c4-a5b1-bea7ea27af57))
+
+```stata
+* Stata code
+use "https://reifjulian.github.io/illinois-wellness-data/data/stata/biometrics.dta", clear
+reg self_cholesterol_2017 treat, absorb(Strata_biometrics) robust
+```
+
+```R
+# R code
+library(haven)
+library(estimatr)
+my_data <- read_dta("https://reifjulian.github.io/illinois-wellness-data/data/stata/biometrics.dta")
+lm_robust(self_cholesterol_2017 ~ treat, fixed_effects = ~ Strata_biometrics, data = my_data, se_type = "HC1")
+```
+
+
+4. Create a density plot of pre-period glucose levels, by sex
+
+```stata
+* Stata code
+use "https://reifjulian.github.io/illinois-wellness-data/data/stata/biometrics.dta", clear
+kdensity glucose_2016, gen(x fx) nograph
+kdensity glucose_2016 if male==0, gen(fxf) at(x) nograph
+kdensity glucose_2016 if male==1, gen(fxm) at(x) nograph
+label var fxf "Female"
+label var fxm "Male"
+twoway line fxf fxm x if x<200, graphregion(fcolor(white)) lcolor(red blue)
+```
+
+```R
+# R code
+library(tidyverse)
+library(haven)
+my_data <- read_dta("https://reifjulian.github.io/illinois-wellness-data/data/stata/biometrics.dta") %>% 
+  mutate(Group = factor(male, labels = c("Female", "Male")))
+ggplot(my_data) + 
+  geom_density(aes(glucose_2016, color=Group, fill=Group), alpha = 0.1) +
+  xlim(50, 200) + 
+  xlab("Glucose (mg/dL) (2016)") +
+  theme_minimal()
+```
+
 
 ## Restricted-use data
 
@@ -74,7 +118,7 @@ These data are currently hosted on a non-networked computer located at:
 	Cambridge, MA 
 	02138
 
-The non-networked computer includes Stata code that provides a full replication of the tables and figues from [Jones, Molitor, and Reif (2019)](https://www.nber.org/workplacewellness/s/IL_Wellness_Study_1.pdf) and [Reif et al. (2020)](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2765690?guestAccessKey=e5e8e875-c27f-44c4-a5b1-bea7ea27af57).
+The non-networked computer includes Stata code that provides a full replication of the tables and figues from [Jones, Molitor, and Reif (2019)](https://academic.oup.com/qje/article/134/4/1747/5550759) and [Reif et al. (2020)](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2765690?guestAccessKey=e5e8e875-c27f-44c4-a5b1-bea7ea27af57).
 
 Researchers interested in using the restricted-use data must:
   - Obtain consent from the study's principal investigators (Jones, Molitor, and Reif);
@@ -103,6 +147,11 @@ Jones, D., D. Molitor, and J. Reif. "What Do Workplace Wellness Programs Do? Evi
 Reif, J., Chan, D., Jones, D., Payne, L., and Molitor, D. "Effects of a Workplace Wellness Program on Employee Health, Health Beliefs, and Medical Use: A Randomized Clinical Trial." *JAMA Internal Medicine*, May 2020, 180(7): 952-960.
 
 ## Update history
+
+* **February 1, 2022**
+  - Added replication coded for Reif et al. (2020)
+  - Added new dataset with biometrics variables
+  - Added utilization and diagnosis variables to claims dataset
 
 * **October 1, 2020**
   - Initial release
