@@ -23,7 +23,7 @@ illinois-wellness-data                # Public-use project folder
     └── qje_2019                      #     Jones, Molitor, and Reif (2019)
 ```
 
-The [documentation](/documentation/README.md) folder describes the datasets. The [replications](/replications/README.md) folder provides Stata code that uses the public use data to replicate a subset of results for the following publications:
+The [documentation](/documentation/README.md) folder describes the datasets. The [replications](/replications) folder provides Stata code that uses the public use data to replicate a subset of results for the following publications:
   - [Jones, Molitor, and Reif (2019)](https://academic.oup.com/qje/article/134/4/1747/5550759)
   - [Reif et al. (2020)](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2765690?guestAccessKey=e5e8e875-c27f-44c4-a5b1-bea7ea27af57)
 
@@ -109,7 +109,7 @@ ggplot(my_data) +
 The restricted-use data include:
   - Anonymized identifiers that allow researchers to link individuals across different datasets
   - Uncensored variables such as salary
-  - Raw responses to the [online and on-site surveys](https://www.nber.org/workplacewellness/downloads/)
+  - Raw responses to the [online and on-site surveys](https://www.nber.org/programs-projects/projects-and-centers/workplace-wellness/illinois-workplace-wellness-downloads)
 
 These data are currently hosted on a non-networked computer located at:
 
