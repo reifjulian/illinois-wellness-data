@@ -23,9 +23,11 @@ illinois-wellness-data                # Public-use project folder
     └── qje_2019                      #     Jones, Molitor, and Reif (2019)
 ```
 
-The [documentation](/documentation/README.md) folder describes the datasets. The [replications](/replications) folder provides Stata code that uses the public use data to replicate a subset of results for the following publications:
-  - [Jones, Molitor, and Reif (2019)](https://academic.oup.com/qje/article/134/4/1747/5550759)
-  - [Reif et al. (2020)](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2765690?guestAccessKey=e5e8e875-c27f-44c4-a5b1-bea7ea27af57)
+The [documentation](/documentation/README.md) folder describes the datasets. The [replications](/replications) folder provides Stata code that uses the public use data to replicate results for the following publications:
+  - Jones, Molitor, and Reif (2019, *Quarterly Journal of Economics*)
+    - [Article](https://academic.oup.com/qje/article/134/4/1747/5550759) | [Replication code](/replications/qje_2019)
+  - Reif et al. (2020, *JAMA Internal Medicine*)
+    - [Article](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2765690?guestAccessKey=e5e8e875-c27f-44c4-a5b1-bea7ea27af57) | [Replication code](/replications/jamaim_2020)
 
 ## Examples
 
