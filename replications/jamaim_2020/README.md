@@ -31,18 +31,18 @@ wellness-data                         # Public-use project folder
 
 ## Instructions
 
-First, [download this repository](https://github.com/reifjulian/illinois-wellness-data/archive/master.zip). Then, run the following Stata script: `replications/jamaim_2020/run.do`. This master script runs all the scripts required to replicate the main results. These other scripts are contained in the `replications/jamaim_2020/scripts` directory and are organized as follows:
+First, [download this repository](https://github.com/reifjulian/illinois-wellness-data/archive/master.zip). Then, run the following Stata script: `replications/jamaim_2020/run.do`. This master script runs all of the analysis scripts required to replicate the main results. These analysis scripts are contained in the `replications/jamaim_2020/scripts` directory and are organized as follows:
 
-- `scripts/libraries/stata` contains user-built Stata commands used in the analysis. 
+- `scripts/libraries/stata` contains user-written (add-on) Stata commands used in the analysis. 
 - `make_tables.do` creates the tables from the published paper. Results that are omitted due to censoring in the public-use data are reported as `N/A`.
 
-Before running `run.do`, the user must define the global macro `WellnessPublic` at the top of that script.
+Before running the master script, `run.do`, the user must first define the global macro `WellnessPublic` at the top of that script.
 
 ## Software, memory, and runtime requirements
 
 Running this analysis requires Stata version 17 or higher. Add-on packages are included in `scripts/libraries/stata` and do not need to be installed by the user.
 
-Memory requirements are minimal. Runtime is approximately 6 hours on a Windows 10 Desktop with Stata MP-2 and an AMD Ryzen 7 4700G processor when running the default specification of `boot = 1000` bootstraps. Runtime is approximately 8 minute for `boot = 2`.
+Memory requirements are minimal. Runtime is approximately 6 hours on a Windows 10 Desktop with Stata MP-2 and an AMD Ryzen 7 4700G processor when running the default specification of `boot = 1000` bootstraps. Runtime is approximately 8 minutes for `boot = 2`.
 
 ## Citation
 
