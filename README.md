@@ -151,7 +151,7 @@ Reif, J., Chan, D., Jones, D., Payne, L., and Molitor, D. "Effects of a Workplac
 ## Update history
 
 * **February 1, 2022**
-  - Added replication coded for Reif et al. (2020)
+  - Added replication code for Reif et al. (2020)
   - Added new dataset with biometrics variables
   - Added utilization and diagnosis variables to claims dataset
 
