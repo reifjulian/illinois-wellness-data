@@ -8,7 +8,7 @@
 
 ## Overview 
 
-This repository contains public use data for the [Illinois Workplace Wellness Study](https://www.nber.org/workplacewellness/), a randomized controlled trial run by Damon Jones, David Molitor, and Julian Reif. These data can be used for research, teaching, and replicating published results. For information about the study, publications, the research team, pre-analysis plans, original survey instruments, and more, please visit the study [website](https://www.nber.org/workplacewellness/).
+This repository contains public use data for the [Illinois Workplace Wellness Study](https://www.nber.org/programs-projects/projects-and-centers/illinois-workplace-wellness), a randomized controlled trial run by Damon Jones, David Molitor, and Julian Reif. These data can be used for research, teaching, and replicating published results. For information about the study, publications, the research team, pre-analysis plans, original survey instruments, and more, please visit the study [website](https://www.nber.org/programs-projects/projects-and-centers/illinois-workplace-wellness).
 
 The following diagram summarizes the organization of the repository.
 ```
